@@ -1,0 +1,63 @@
+main {
+	background-image: url(../img/cute-puppy-dachshund-dog-posing-isolated-white-background.jpg);
+	background-size: 200vw 400px;
+	background-repeat: no-repeat;
+	min-height: 400px;
+	width: auto;
+	grid-area: main;
+	.mainMenu {
+		display: flex;
+		justify-content: flex-end;
+        .dropdown {
+			&:hover {
+				.dropdown-menu {
+					display: block;
+					margin-top: 0;
+				}
+			}
+		}
+	}
+	.mainText {
+		display: flex;
+		justify-content: flex-start;
+		ul {
+			li {
+				list-style: none;
+				font-size: 1.5rem;
+				display: inline-block;
+				color: $color_2;
+				.buttonApply {
+					text-decoration: none;
+					color: $color_3;
+					background-color: $background-color_1;
+					border: 1px solid black;
+					border-radius: 5px;
+					padding: 5px 5px;
+					font-size: 1rem;
+                    transition: all 1.5s;
+                    &:hover{
+                        font-size: 1.2rem;
+                        background: radial-gradient($background-color_1, #ffe99a);
+                    }
+				}
+                
+			}
+		}
+	}
+	.mainTexttwo {
+		color: $color_3;
+		padding: 0px 35px;
+		width: 30%;
+		text-align: justify;
+	}
+	.mainTextthree {
+		margin-top: 275px;
+		padding: 15px 0px;
+		text-align: center;
+		background-color: $background-color_1;
+		font-size: 1.5rem;
+		color: $color_3;
+		border: 1px solid black;
+		margin-bottom: 0 !important;
+	}
+}

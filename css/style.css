@@ -1,0 +1,1863 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+}
+
+header {
+  min-width: 320px;
+}
+
+main {
+  min-width: 320px;
+}
+
+footer {
+  min-width: 320px;
+}
+
+header {
+  background-color: rgb(238, 216, 124);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  grid-area: header;
+  border-bottom: 1px solid black;
+}
+
+header .firstHeader .logoHome {
+  list-style: none;
+  display: inline-block;
+  position: relative;
+  top: 15px;
+  right: 60px;
+}
+
+header .firstHeader .logo {
+  object-fit: contain;
+  width: 200px;
+}
+
+header .firstHeader ul .logoAdogsjoy {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-style: italic;
+}
+
+header .firstHeader ul .sublogoAdogsjoy {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: rgba(255, 255, 255, 0.858);
+}
+
+header .secondHeader .headerTopright li {
+  width: 70px;
+  height: 50px;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1.2rem;
+  text-align: center;
+  object-fit: contain;
+}
+
+header .secondHeader .headerTopright li .iconOne {
+  width: 55px;
+  height: 50px;
+}
+
+header .secondHeader .headerTopright li .iconTwo {
+  width: 40px;
+  height: 40px;
+}
+
+header .secondHeader .headerTopright li .iconThree {
+  width: 40px;
+  height: 40px;
+}
+
+header .secondHeader .headerTopright li .iconFour {
+  width: 40px;
+  height: 40px;
+}
+
+header .secondHeader .headerTopright li .iconFive {
+  width: 70px;
+  height: 70px;
+  position: relative;
+  bottom: 10px;
+}
+
+header .secondHeader .headerTopright li .iconSix {
+  width: 40px;
+  height: 40px;
+}
+
+main {
+  background-image: url(../img/cute-puppy-dachshund-dog-posing-isolated-white-background.jpg);
+  background-size: 200vw 400px;
+  background-repeat: no-repeat;
+  min-height: 400px;
+  width: auto;
+  grid-area: main;
+}
+
+main .mainMenu {
+  display: flex;
+  justify-content: flex-end;
+}
+
+main .mainMenu .dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+}
+
+main .mainText {
+  display: flex;
+  justify-content: flex-start;
+}
+
+main .mainText ul li {
+  list-style: none;
+  font-size: 1.5rem;
+  display: inline-block;
+  color: rgb(236, 203, 71);
+}
+
+main .mainText ul li .buttonApply {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(238, 216, 124);
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px 5px;
+  font-size: 1rem;
+  transition: all 1.5s;
+}
+
+main .mainText ul li .buttonApply:hover {
+  font-size: 1.2rem;
+  background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+}
+
+main .mainTexttwo {
+  color: black;
+  padding: 0px 35px;
+  width: 30%;
+  text-align: justify;
+}
+
+main .mainTextthree {
+  margin-top: 275px;
+  padding: 15px 0px;
+  text-align: center;
+  background-color: rgb(238, 216, 124);
+  font-size: 1.5rem;
+  color: black;
+  border: 1px solid black;
+  margin-bottom: 0 !important;
+}
+
+.mainThree {
+  background-image: url(../img/vecteezy_artificial-grass-texture-banner_3086563.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 350px;
+  height: 250px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-flow: row wrap;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  border-left: 1px solid black;
+  grid-area: mainThree;
+}
+
+.mainThree p .leftMain {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(238, 216, 124);
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.mainThree p .rightMain {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(238, 216, 124);
+  border: 1px solid black;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.mainThree .photoOne {
+  width: 200px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 25%;
+  display: flex;
+  background-image: url(../img/erda-estremera-JBrbzg5N7Go-unsplash.jpg);
+  background-size: 200px 150px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.mainThree .photoOne a {
+  color: black;
+  font-size: 0.5rem;
+  text-decoration: none;
+  border: 1px solid black;
+  background-color: rgb(238, 216, 124);
+  border-radius: 25%;
+  padding: 0px 5px;
+}
+
+.mainThree .photoTwo {
+  width: 200px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 25%;
+  display: flex;
+  background-image: url(../img/milli-2l0CWTpcChI-unsplash.jpg);
+  background-size: 200px 150px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.mainThree .photoTwo a {
+  color: black;
+  font-size: 0.5rem;
+  text-decoration: none;
+  border: 1px solid black;
+  background-color: rgb(238, 216, 124);
+  border-radius: 25%;
+  padding: 0px 5px;
+}
+
+.mainThree .photoThree {
+  width: 200px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 25%;
+  display: flex;
+  background-image: url(../img/baptist-standaert-mx0DEnfYxic-unsplash.jpg);
+  background-size: 200px 150px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.mainThree .photoThree a {
+  color: black;
+  font-size: 0.5rem;
+  text-decoration: none;
+  border: 1px solid black;
+  background-color: rgb(238, 216, 124);
+  border-radius: 25%;
+  padding: 0px 5px;
+}
+
+.mainThree .photoFour {
+  width: 200px;
+  height: 150px;
+  border: 1px solid black;
+  border-radius: 25%;
+  display: flex;
+  background-image: url(../img/camylla-battani-AoqgGAqrLpU-unsplash.jpg);
+  background-size: 200px 150px;
+  background-repeat: no-repeat;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.mainThree .photoFour a {
+  color: black;
+  font-size: 0.5rem;
+  text-decoration: none;
+  border: 1px solid black;
+  background-color: rgb(238, 216, 124);
+  border-radius: 25%;
+  padding: 0px 5px;
+}
+
+.mainFour {
+  background-image: url(../img/Presentation1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 500px;
+  height: 600px;
+  text-align: center;
+  grid-area: mainFour;
+}
+
+.mainFour .mainFourtx1 {
+  font-size: 2rem;
+  padding-top: 40px;
+}
+
+.mainFour .mainFourtx2 {
+  font-size: 1.2rem;
+}
+
+.mainFour .mainFourAProcess {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.mainFour .mainFourAProcess div ul li {
+  list-style: none;
+  width: 150px;
+  height: 35px;
+  text-align: center;
+  padding: 25px 0px;
+}
+
+.mainFour .mainFourAProcess div ul li .one {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+.mainFour .mainFourAProcess div ul li .two {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+.mainFour .mainFourAProcess div ul li .three {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+.mainFour .mainFourAProcess div ul li .four {
+  width: 25px;
+  height: 25px;
+  text-align: center;
+}
+
+.mainFour .mainFourAProcess div ul li .search {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.mainFour .mainFourAProcess div ul li .adoptform {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.mainFour .mainFourAProcess div ul li .meet {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.mainFour .mainFourAProcess div ul li .dog {
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+
+.mainFour .mainFourAProcess div ul li .listYellow {
+  color: rgb(238, 216, 124);
+  font-size: 1.2rem;
+}
+
+.mainFour .mainFourbutton {
+  margin: 100px;
+}
+
+.mainFour .mainFourbutton a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(238, 216, 124);
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px 25px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 1s;
+}
+
+.mainFour .mainFourbutton a:hover {
+  font-size: 1.4rem;
+  background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+}
+
+.mainFive {
+  background-image: url(../img/Presentation2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 800px;
+  height: 800px;
+  text-align: center;
+  grid-area: mainFive;
+}
+
+.mainFive p .volunteer {
+  width: 50px;
+  height: 50px;
+}
+
+.mainFive .mainFivetx1 {
+  font-size: 2rem;
+}
+
+.mainFive .mainFivetx2 {
+  font-size: 1.2rem;
+}
+
+.mainFive .mainFiveVolunteer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mainFive .mainFiveVolunteer p {
+  display: inline-block;
+}
+
+.mainFive .mainFiveVolunteer p .volunteeringImg {
+  width: 500px;
+  height: 350px;
+  padding-top: 50px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.mainFive .mainFiveVolunteer .volTx1 {
+  text-align: justify;
+  font-size: 1rem;
+  width: 150px;
+}
+
+.mainFive .mainFiveVolunteer .volTx2 {
+  text-align: justify;
+  font-size: 1rem;
+  width: 150px;
+}
+
+.mainFive .mainFivetx3 {
+  font-size: 1.2rem;
+  margin: 15px;
+}
+
+.mainFive .mainFivebutton {
+  margin: 15px;
+}
+
+.mainFive .mainFivebutton a {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(238, 216, 124);
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 1.5s;
+}
+
+.mainFive .mainFivebutton a:hover {
+  font-size: 1.4rem;
+  background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+}
+
+.mainServices {
+  background-image: url(../img/Presentation3.png);
+  background-repeat: no-repeat;
+  background-size: 100% 1600px;
+  height: 1600px;
+  text-align: center;
+  grid-area: mainServices;
+}
+
+.mainServices .adoptingServices {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  margin-left: 35%;
+  height: 250px;
+}
+
+.mainServices .adoptingServices ul li {
+  list-style: none;
+}
+
+.mainServices .rescueServices {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  margin-left: 20%;
+  height: 250px;
+}
+
+.mainServices .rescueServices ul li {
+  list-style: none;
+}
+
+.mainServices .deliverServices {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  margin-left: 10%;
+  height: 250px;
+}
+
+.mainServices .deliverServices ul li {
+  list-style: none;
+}
+
+.mainServices .findServices {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  margin-left: 10%;
+  height: 250px;
+}
+
+.mainServices .findServices ul li {
+  list-style: none;
+}
+
+.mainServices .reportServices {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  margin-left: 20%;
+  height: 250px;
+}
+
+.mainServices .reportServices ul li {
+  list-style: none;
+}
+
+.mainServices .trainServices {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 50px;
+  margin-left: 35%;
+  height: 250px;
+}
+
+.mainServices .trainServices ul li {
+  list-style: none;
+}
+
+.mainServices div ul .subtitleServices {
+  color: rgb(238, 216, 124);
+  font-size: 1.5rem;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.mainServices div ul .contentServices {
+  color: black;
+  font-size: 1rem;
+  width: 200px;
+  text-align: justify;
+}
+
+.mainServices .buttonServices {
+  margin-top: 50px;
+}
+
+.mainServices .buttonServices .buttonServiceslink {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(238, 216, 124);
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 1.5s;
+}
+
+.mainServices .buttonServices .buttonServiceslink:hover {
+  font-size: 1.4rem;
+  background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+}
+
+.mainServices p .servicesImg {
+  width: 200px;
+  height: 200px;
+  margin-top: 60px;
+  border-radius: 50%;
+}
+
+.mainUs {
+  background-image: url(../img/girl-dog.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 600px;
+  height: 600px;
+  border: 1px solid black;
+  padding: 100px 100px;
+  display: flex;
+  flex-direction: column;
+  grid-area: mainUs;
+}
+
+.mainUs .subtitleUs {
+  font-size: 2rem;
+  text-align: start;
+  color: rgb(238, 216, 124);
+  font-weight: bold;
+}
+
+.mainUs .contentUs {
+  font-size: 1.2rem;
+  text-align: justify;
+  width: 350px;
+  padding: 10px 0px;
+}
+
+.mainUs .textUs {
+  margin-top: 70px;
+  font-size: 2rem;
+  text-align: start;
+  color: black;
+  margin-left: 31%;
+}
+
+.mainUs .mainbuttonUs {
+  text-align: start;
+  margin-top: 15px;
+  margin-left: 30%;
+}
+
+.mainUs .mainbuttonUs .buttonUs {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(238, 216, 124);
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 1.5s;
+}
+
+.mainUs .mainbuttonUs .buttonUs:hover {
+  font-size: 1.4rem;
+  background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+}
+
+.mainUstwo {
+  height: 900px;
+  background-image: url(../img/happy-hipster-guy-glasses-pet-dog-smiling-cute-black-pug-enjoy-spending-time-with-owner-looki.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 900px;
+  grid-area: mainUstwo;
+}
+
+.mainUstwo .blockUstwo {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  margin-right: 10%;
+}
+
+.mainUstwo .blockUstwo .subtitleUstwo {
+  padding-top: 80px;
+  font-size: 2rem;
+  color: rgb(238, 216, 124);
+  text-align: end;
+}
+
+.mainUstwo .blockUstwo .contentUstwo {
+  font-size: 1.2rem;
+  text-align: justify;
+  width: 400px;
+  padding: 10px 0px;
+}
+
+.mainUstwo .rowImgUs1 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5%;
+  align-items: center;
+  height: 200px;
+  padding: 0px 16%;
+}
+
+.mainUstwo .rowImgUs1 .rowoneImgUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainUstwo .rowImgUs1 .rowtwoImgUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainUstwo .rowImgUs2 {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5%;
+  align-items: center;
+  height: 200px;
+  padding: 0px 6%;
+}
+
+.mainUstwo .rowImgUs2 .rowthreeImgUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainUstwo .rowImgUs2 .rowfourImgUs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainUstwo .rowImg {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 100px;
+  border: 1px solid black;
+  object-fit: cover;
+}
+
+.mainUstwo .rowonePosUs {
+  text-align: start;
+  font-size: 0.6rem;
+  padding: 5px 15px;
+}
+
+.mainUstwo .rowoneBox {
+  display: inline-block;
+  list-style: none;
+  font-size: 1.5rem;
+  text-align: start;
+}
+
+.mainUstwo .rowoneBox li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 5px;
+}
+
+.mainUstwo .rowoneimgBox {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.mainUstwo .rowoneNameUs {
+  cursor: pointer;
+}
+
+.mainBepart {
+  background-image: url(../img/Presentation4.png);
+  background-repeat: no-repeat;
+  background-size: 100% 1850px;
+  height: 1850px;
+  grid-area: mainBepart;
+}
+
+.mainBepart .donatingBepart {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2%;
+  padding-left: 5%;
+  padding-bottom: 3%;
+  width: auto;
+}
+
+.mainBepart .donatingBepart div ul li {
+  list-style: none;
+}
+
+.mainBepart .volunteeringBepart {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2%;
+  padding-right: 7%;
+  padding-bottom: 3%;
+  width: auto;
+}
+
+.mainBepart .volunteeringBepart div ul li {
+  list-style: none;
+}
+
+.mainBepart .sponsorBepart {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2%;
+  padding-left: 5%;
+  padding-bottom: 3%;
+  width: auto;
+}
+
+.mainBepart .sponsorBepart div ul li {
+  list-style: none;
+}
+
+.mainBepart .joinBepart {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 2%;
+  padding-right: 7%;
+  padding-bottom: 3%;
+  width: auto;
+}
+
+.mainBepart .joinBepart div ul li {
+  list-style: none;
+}
+
+.mainBepart div ul .subtitleBepart {
+  color: rgb(238, 216, 124);
+  font-size: 2rem;
+  padding-top: 5%;
+  padding-bottom: 1%;
+  text-align: end;
+}
+
+.mainBepart div ul .contentBepart {
+  color: black;
+  font-size: 1.2rem;
+  width: 200px;
+  text-align: justify;
+}
+
+.mainBepart div ul .buttonBepart {
+  margin-top: 30px;
+  text-align: end;
+}
+
+.mainBepart div ul .buttonBepart .buttonBepartlink {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(238, 216, 124);
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: all 1.5s;
+}
+
+.mainBepart div ul .buttonBepart .buttonBepartlink:hover {
+  font-size: 1.7rem;
+  background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+}
+
+.mainBepart div ul .subtitleBepartleft {
+  color: rgb(238, 216, 124);
+  font-size: 2rem;
+  padding-top: 5%;
+  padding-bottom: 1%;
+  text-align: start;
+}
+
+.mainBepart div ul .buttonBepartleft {
+  margin-top: 30px;
+  text-align: start;
+}
+
+.mainBepart div ul .buttonBepartleft .buttonBepartlink {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(238, 216, 124);
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px 15px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  transition: all 1.5s;
+}
+
+.mainBepart div ul .buttonBepartleft .buttonBepartlink:hover {
+  font-size: 1.7rem;
+  background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+}
+
+.mainBepart .bepartImg {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.mainContact {
+  background-image: url(../img/portrait-happy-woman-with-digital-tablet.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 2000px;
+  height: 1780px;
+  grid-area: mainContact;
+}
+
+.mainContact .subtitleContact {
+  text-align: center;
+  font-size: 1.5rem;
+  padding: 5px 0px;
+}
+
+.mainContact .textContact {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 5px 0px;
+}
+
+.mainContact .listContact {
+  margin-top: 125px;
+  margin-left: 9%;
+  font-size: 1.2rem;
+}
+
+.mainContact .listContact ul li {
+  list-style: none;
+  padding: 10px 0px;
+}
+
+.mainContact .listContact .buttonContact {
+  text-align: end;
+  display: inline-block;
+}
+
+.mainContact .listContact .ftextContact {
+  text-align: justify;
+  font-size: 1.2rem;
+  width: 54%;
+}
+
+.mainContact .pfinalImgContact {
+  margin-bottom: 0px !important;
+}
+
+.mainContact .pfinalImgContact .finalImgContact {
+  width: 49%;
+  height: 300px;
+  margin-left: 9%;
+}
+
+#message {
+  width: 50%;
+}
+
+footer {
+  grid-area: footer;
+}
+
+footer .footerOne {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: top;
+  background-color: rgb(31, 31, 31);
+  color: white;
+  padding: 0px 1%;
+  height: 235px;
+  width: auto;
+}
+
+footer .footerOne div h2 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 20px 0px;
+  margin-bottom: 0;
+}
+
+footer .footerOne div p {
+  font-size: 0.8rem;
+  width: 200px;
+  text-align: justify;
+}
+
+footer .noDisplayMobile p .twitterImg {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+footer .noDisplayMobile2 .footerLinks ul {
+  width: 200px;
+}
+
+footer .noDisplayMobile2 .footerLinks li {
+  font-size: 0.8rem;
+  padding: 2px 0px;
+  list-style: none;
+}
+
+footer .noDisplayMobile2 .footerLinks li::before {
+  content: "";
+  display: inline-block;
+  height: 10px;
+  width: 25px;
+  background-image: url(../img/right-arrow_3318390.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+}
+
+footer .noDisplayMobile2 .footerLinks a {
+  color: white;
+  text-decoration: none;
+}
+
+footer div .footerContact li {
+  font-size: 0.8rem;
+  padding: 2px 0px;
+  list-style: none;
+}
+
+footer .footerTwo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: rgb(238, 216, 124);
+  color: black;
+  width: auto;
+  padding-top: 8px;
+}
+
+footer .footerTwo p {
+  font-size: 1rem;
+}
+
+.homePage {
+  display: grid;
+  grid-template-areas: "header header header header header header header header header header header header" "main main main main main main main main main main main main" "mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree" "mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour" "mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive" "footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+
+.servicesPage {
+  display: grid;
+  grid-template-areas: "header header header header header header header header header header header header" "main main main main main main main main main main main main" "mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices" "footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+
+.usPage {
+  display: grid;
+  grid-template-areas: "header header header header header header header header header header header header" "main main main main main main main main main main main main" "mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs" "mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo" "footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+
+.bepartofPage {
+  display: grid;
+  grid-template-areas: "header header header header header header header header header header header header" "main main main main main main main main main main main main" "mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart" "footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+
+.contactPage {
+  display: grid;
+  grid-template-areas: "header header header header header header header header header header header header" "main main main main main main main main main main main main" "mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact" "footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+
+/* SECCION PARA RESPONSIVE */
+@media (min-width: 993px) and (max-width: 1200px) {
+  header {
+    justify-content: flex-start;
+  }
+  header .firstHeader .logo {
+    width: 25%;
+  }
+  header .firstHeader ul .logoAdogsjoy {
+    font-size: 2rem;
+  }
+  header .firstHeader ul .sublogoAdogsjoy {
+    font-size: 0.6rem;
+  }
+  header .secondHeader .headerTopright li {
+    width: 60px;
+  }
+  #logIn {
+    display: none;
+  }
+  #signUp {
+    display: none;
+  }
+  .mainBepart {
+    height: 1350px;
+  }
+  .mainBepart div ul .subtitleBepart {
+    font-size: 1.5rem;
+  }
+  .mainBepart div ul .contentBepart {
+    font-size: 0.8rem;
+    width: 150px;
+  }
+  .mainBepart div ul .buttonBepart .buttonBepartlink {
+    font-size: 1rem;
+    transition: all 1.5s;
+  }
+  .mainBepart div ul .buttonBepart .buttonBepartlink:hover {
+    font-size: 1.2rem;
+    background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+  }
+  .mainBepart div ul .buttonBepartleft .buttonBepartlink {
+    font-size: 1rem;
+    transition: all 1.5s;
+  }
+  .mainBepart div ul .buttonBepartleft .buttonBepartlink:hover {
+    font-size: 1.2rem;
+    background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+  }
+  .mainBepart div ul .subtitleBepartleft {
+    font-size: 1.5rem;
+  }
+  .mainBepart .bepartImg {
+    width: 150px;
+    height: 150px;
+  }
+  .mainUstwo {
+    background-size: 115vw 900px;
+  }
+  .mainUstwo .rowImgUs1 {
+    padding: 0px 2%;
+  }
+  .mainUstwo .rowImgUs2 {
+    padding: 0px 10%;
+  }
+}
+@media (min-width: 769px) and (max-width: 992px) {
+  footer .noDisplayMobile {
+    display: none;
+  }
+  #logIn {
+    display: none;
+  }
+  #signUp {
+    display: none;
+  }
+  header {
+    justify-content: flex-start;
+  }
+  header .firstHeader {
+    width: 400px;
+  }
+  header .firstHeader .logo {
+    width: 25%;
+  }
+  header .firstHeader ul .logoAdogsjoy {
+    font-size: 2rem;
+  }
+  header .firstHeader ul .sublogoAdogsjoy {
+    font-size: 0.6rem;
+  }
+  header .secondHeader .headerTopright li {
+    width: 45px;
+  }
+  header .secondHeader .headerTopright .iconOne {
+    position: relative;
+    right: 15px;
+  }
+  header .secondHeader .headerTopright .iconSix {
+    position: relative;
+    left: 25px;
+  }
+  .mainContact {
+    background-image: none;
+    height: 1750px;
+  }
+  .mainContact .listContact {
+    text-align: center;
+    margin-left: 0;
+  }
+  .mainContact .listContact ul {
+    padding-left: 0 !important;
+  }
+  .mainContact .listContact .ftextContact {
+    text-align: center;
+    font-size: 1.2rem;
+    width: 100%;
+    margin-right: 0;
+  }
+  .mainContact .pfinalImgContact {
+    margin-bottom: 0px !important;
+  }
+  .mainContact .pfinalImgContact .finalImgContact {
+    width: 100%;
+    margin-left: 0;
+  }
+  #message {
+    width: 80%;
+  }
+  .mainBepart {
+    background-image: none;
+    height: 1200px;
+  }
+  .mainBepart div ul .subtitleBepart {
+    font-size: 1.5rem;
+  }
+  .mainBepart div ul .contentBepart {
+    font-size: 0.8rem;
+    width: 150px;
+  }
+  .mainBepart div ul .buttonBepart .buttonBepartlink {
+    font-size: 1rem;
+    transition: all 1.5s;
+  }
+  .mainBepart div ul .buttonBepart .buttonBepartlink:hover {
+    font-size: 1.2rem;
+    background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+  }
+  .mainBepart div ul .buttonBepartleft .buttonBepartlink {
+    font-size: 1rem;
+    transition: all 1.5s;
+  }
+  .mainBepart div ul .buttonBepartleft .buttonBepartlink:hover {
+    font-size: 1.2rem;
+    background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+  }
+  .mainBepart div ul .subtitleBepartleft {
+    font-size: 1.5rem;
+  }
+  .mainBepart .bepartImg {
+    width: 150px;
+    height: 150px;
+  }
+  .mainUstwo {
+    background-image: none;
+    height: 800px;
+  }
+  .mainUstwo .blockUstwo {
+    justify-content: center;
+    align-items: center;
+  }
+  .mainUstwo .blockUstwo .subtitleUstwo {
+    text-align: center;
+  }
+  .mainUstwo .blockUstwo .contentUstwo {
+    text-align: justify;
+    font-size: 1rem;
+  }
+  .mainUstwo .rowImgUs1 {
+    padding: 0px 10%;
+  }
+  .mainUstwo .rowImgUs2 {
+    padding: 0px 10%;
+  }
+  .mainUs {
+    padding: 100px 50px;
+  }
+  .mainUs .subtitleUs {
+    font-size: 1.8rem;
+  }
+  .mainUs .contentUs {
+    font-size: 1rem;
+    width: 250px;
+  }
+  .mainUs .textUs {
+    font-size: 1.6rem;
+    margin-left: 22%;
+  }
+  .mainUs .mainbuttonUs {
+    margin-left: 20%;
+  }
+  .mainUs .mainbuttonUs .buttonUs {
+    font-size: 1rem;
+    transition: all 1.5s;
+  }
+  .mainUs .mainbuttonUs .buttonUs:hover {
+    font-size: 1.2rem;
+    background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+  }
+  .mainServices .adoptingServices {
+    gap: 3%;
+  }
+  .mainServices .rescueServices {
+    gap: 3%;
+  }
+  .mainServices .deliverServices {
+    gap: 3%;
+  }
+  .mainServices .findServices {
+    gap: 3%;
+  }
+  .mainServices .reportServices {
+    gap: 3%;
+  }
+  .mainServices .trainServices {
+    gap: 3%;
+  }
+  .mainServices div ul .subtitleServices {
+    font-size: 1.2rem;
+  }
+  .mainServices div ul .contentServices {
+    font-size: 0.8rem;
+    width: 150px;
+  }
+  .mainServices .buttonServices .buttonServiceslink {
+    font-size: 0.8rem;
+    transition: all 1.5s;
+  }
+  .mainServices .buttonServices .buttonServiceslink:hover {
+    font-size: 1rem;
+    background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+  }
+  .mainServices p .servicesImg {
+    width: 150px;
+    height: 150px;
+  }
+  .mainThree .photoOne {
+    background-size: 100px 100px;
+    width: 100px;
+    height: 100px;
+  }
+  .mainThree .photoTwo {
+    background-size: 100px 100px;
+    width: 100px;
+    height: 100px;
+  }
+  .mainThree .photoThree {
+    background-size: 100px 100px;
+    width: 100px;
+    height: 100px;
+  }
+  .mainThree .photoFour {
+    background-size: 100px 100px;
+    width: 100px;
+    height: 100px;
+  }
+  .mainFour {
+    height: 700px;
+  }
+  .mainFour .mainFourAProcess {
+    gap: 1%;
+  }
+  .mainFour .mainFourAProcess div ul li {
+    width: 100px;
+    height: 35px;
+    font-size: 1rem;
+  }
+  .mainFour .mainFourAProcess div ul li .one {
+    width: 25px;
+    height: 25px;
+  }
+  .mainFour .mainFourAProcess div ul li .two {
+    width: 25px;
+    height: 25px;
+  }
+  .mainFour .mainFourAProcess div ul li .three {
+    width: 25px;
+    height: 25px;
+  }
+  .mainFour .mainFourAProcess div ul li .four {
+    width: 25px;
+    height: 25px;
+  }
+  .mainFour .mainFourAProcess div ul li .search {
+    width: 50px;
+    height: 50px;
+  }
+  .mainFour .mainFourAProcess div ul li .adoptform {
+    width: 50px;
+    height: 50px;
+  }
+  .mainFour .mainFourAProcess div ul li .meet {
+    width: 50px;
+    height: 50px;
+  }
+  .mainFour .mainFourAProcess div ul li .dog {
+    width: 50px;
+    height: 50px;
+  }
+  .mainFour .mainFourbutton {
+    margin-top: 200px;
+  }
+  .mainFour .mainFourbutton a {
+    font-size: 0.8rem;
+    transition: all 1.5s;
+  }
+  .mainFour .mainFourbutton a:hover {
+    font-size: 1rem;
+    background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+  }
+  .mainFive {
+    height: 700px;
+  }
+  .mainFive p .volunteer {
+    width: 50px;
+    height: 50px;
+  }
+  .mainFive .mainFivetx1 {
+    font-size: 2rem;
+  }
+  .mainFive .mainFivetx2 {
+    font-size: 1.2rem;
+  }
+  .mainFive .mainFiveVolunteer p .volunteeringImg {
+    width: 400px;
+  }
+  .mainFive .mainFiveVolunteer .volTx1 {
+    width: 100px;
+    font-size: 0.8rem;
+  }
+  .mainFive .mainFiveVolunteer .volTx2 {
+    width: 100px;
+    font-size: 0.8rem;
+  }
+  .mainFive .mainFivetx3 {
+    font-size: 1rem;
+  }
+  .mainFive .mainFivebutton a {
+    font-size: 0.8rem;
+    transition: all 1.5s;
+  }
+  .mainFive .mainFivebutton a:hover {
+    font-size: 1rem;
+    background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+  }
+}
+@media (min-width: 320px) and (max-width: 768px) {
+  footer .footerOne {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+  footer .footerOne div h2 {
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0px;
+    margin-bottom: 0;
+  }
+  footer .footerOne div p {
+    font-size: 0.7rem;
+    width: 150px;
+    text-align: justify;
+  }
+  footer .footerOne .footerContact li {
+    font-size: 0.7rem;
+    width: 150px;
+  }
+  footer .noDisplayMobile {
+    display: none;
+  }
+  footer .noDisplayMobile2 {
+    display: none;
+  }
+  footer .footerTwo {
+    justify-content: center;
+  }
+  footer .footerTwo p {
+    font-size: 1rem;
+  }
+  #logIn {
+    display: none;
+  }
+  #signUp {
+    display: none;
+  }
+  header {
+    justify-content: flex-start;
+  }
+  header .firstHeader {
+    width: 100%;
+  }
+  header .firstHeader .logo {
+    width: 25%;
+  }
+  header .firstHeader ul .logoAdogsjoy {
+    font-size: 1.6rem;
+  }
+  header .firstHeader ul .sublogoAdogsjoy {
+    font-size: 0.5rem;
+  }
+  header .secondHeader {
+    display: none;
+  }
+  header .secondHeader .headerTopright li {
+    width: 45px;
+  }
+  header .secondHeader .headerTopright .iconOne {
+    position: relative;
+    right: 15px;
+  }
+  header .secondHeader .headerTopright .iconSix {
+    position: relative;
+    left: 25px;
+  }
+  main .mainText {
+    margin-top: 30px;
+  }
+  main .mainText ul li {
+    font-size: 1rem;
+  }
+  main .mainText ul li .buttonApply {
+    font-size: 0.6rem;
+    transition: all 1.5s;
+  }
+  main .mainText ul li .buttonApply:hover {
+    font-size: 0.8rem;
+    background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+  }
+  main .mainTexttwo {
+    text-align: justify;
+    font-size: 0.8rem;
+    width: 65%;
+  }
+  main .mainTextthree {
+    font-size: 1rem;
+    padding: 0px 10px;
+  }
+  .mainContact {
+    background-image: none;
+    height: 1690px;
+  }
+  .mainContact .listContact {
+    text-align: center;
+    margin-left: 0;
+    font-size: 1rem;
+  }
+  .mainContact .listContact ul {
+    padding-left: 0 !important;
+  }
+  .mainContact .listContact .ftextContact {
+    text-align: center;
+    font-size: 1rem;
+    width: 100%;
+    margin-right: 0;
+  }
+  .mainContact .pfinalImgContact {
+    margin-bottom: 0px !important;
+  }
+  .mainContact .pfinalImgContact .finalImgContact {
+    width: 100%;
+    margin-left: 0;
+  }
+  #message {
+    width: 80%;
+  }
+  .mainBepart {
+    background-image: none;
+    height: 1100px;
+  }
+  .mainBepart .donatingBepart {
+    justify-content: center;
+  }
+  .mainBepart .volunteeringBepart {
+    justify-content: center;
+  }
+  .mainBepart .sponsorBepart {
+    justify-content: center;
+  }
+  .mainBepart .joinBepart {
+    justify-content: center;
+  }
+  .mainBepart div ul .subtitleBepart {
+    font-size: 1.1rem;
+  }
+  .mainBepart div ul .contentBepart {
+    font-size: 0.7rem;
+    width: 120px;
+  }
+  .mainBepart div ul .buttonBepart .buttonBepartlink {
+    font-size: 0.9rem;
+    transition: all 1.5s;
+  }
+  .mainBepart div ul .buttonBepart .buttonBepartlink:hover {
+    font-size: 1.1rem;
+    background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+  }
+  .mainBepart div ul .buttonBepartleft .buttonBepartlink {
+    font-size: 0.9rem;
+    transition: all 1.5s;
+  }
+  .mainBepart div ul .buttonBepartleft .buttonBepartlink:hover {
+    font-size: 1.1rem;
+    background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+  }
+  .mainBepart div ul .subtitleBepartleft {
+    font-size: 1.1rem;
+  }
+  .mainBepart .bepartImg {
+    width: 120px;
+    height: 120px;
+  }
+  .mainUstwo {
+    background-image: none;
+    height: 800px;
+  }
+  .mainUstwo .blockUstwo {
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 0;
+  }
+  .mainUstwo .blockUstwo .subtitleUstwo {
+    text-align: center;
+    font-size: 1.5rem;
+    margin-left: 0px;
+  }
+  .mainUstwo .blockUstwo .contentUstwo {
+    text-align: justify;
+    font-size: 1rem;
+    width: 250px;
+    margin-left: 0px;
+  }
+  .mainUstwo .rowImgUs1 {
+    padding: 0;
+    justify-content: center;
+  }
+  .mainUstwo .rowImgUs2 {
+    padding: 0;
+    justify-content: center;
+  }
+  .mainUstwo .rowImg {
+    width: 75px;
+    height: 75px;
+    margin-top: 25px;
+  }
+  .mainUstwo .rowonePosUs {
+    font-size: 0.5rem;
+  }
+  .mainUstwo .rowoneBox {
+    width: 50px;
+  }
+  .mainUstwo .rowoneNameUs {
+    font-size: 1.2rem;
+  }
+  .mainUs {
+    padding: 100px 25px;
+    background-size: 220vw 600px;
+    align-items: center;
+  }
+  .mainUs .subtitleUs {
+    font-size: 1.8rem;
+  }
+  .mainUs .contentUs {
+    font-size: 1rem;
+    width: 250px;
+  }
+  .mainUs .textUs {
+    font-size: 1.6rem;
+    margin: 0;
+  }
+  .mainUs .mainbuttonUs {
+    margin: 0;
+    padding: 10px 0px;
+  }
+  .mainUs .mainbuttonUs .buttonUs {
+    font-size: 1rem;
+    transition: all 1.5s;
+  }
+  .mainUs .mainbuttonUs .buttonUs:hover {
+    font-size: 1.2rem;
+    background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+  }
+  .mainServices {
+    background-image: none;
+    height: 1100px;
+  }
+  .mainServices .adoptingServices {
+    gap: 2%;
+    margin-left: 0;
+    margin-bottom: 25px;
+    justify-content: center;
+    height: 150px;
+  }
+  .mainServices .rescueServices {
+    gap: 2%;
+    margin-left: 0;
+    margin-bottom: 25px;
+    justify-content: center;
+    height: 150px;
+  }
+  .mainServices .deliverServices {
+    gap: 2%;
+    margin-left: 0;
+    margin-bottom: 25px;
+    justify-content: center;
+    height: 150px;
+  }
+  .mainServices .findServices {
+    gap: 2%;
+    margin-left: 0;
+    margin-bottom: 25px;
+    justify-content: center;
+    height: 150px;
+  }
+  .mainServices .reportServices {
+    gap: 2%;
+    margin-left: 0;
+    margin-bottom: 25px;
+    justify-content: center;
+    height: 150px;
+  }
+  .mainServices .trainServices {
+    gap: 2%;
+    margin-left: 0;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+  }
+  .mainServices div ul .subtitleServices {
+    font-size: 1rem;
+    width: 120px;
+  }
+  .mainServices div ul .contentServices {
+    font-size: 0.7rem;
+    width: 120px;
+  }
+  .mainServices .buttonServices .buttonServiceslink {
+    font-size: 0.7rem;
+    padding: 5px 5px;
+    transition: all 1.5s;
+  }
+  .mainServices .buttonServices .buttonServiceslink:hover {
+    font-size: 0.8rem;
+    background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+  }
+  .mainServices p .servicesImg {
+    width: 100px;
+    height: 100px;
+  }
+  .mainThree .photoOne {
+    background-size: 250px 200px;
+    width: 250px;
+    height: 200px;
+  }
+  .mainThree .photoTwo {
+    display: none;
+  }
+  .mainThree .photoThree {
+    display: none;
+  }
+  .mainThree .photoFour {
+    display: none;
+  }
+  .mainFour {
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: 100vw 100vw;
+  }
+  .mainFour .mainFourtx1 {
+    font-size: 1rem;
+    width: 120px;
+  }
+  .mainFour .mainFourtx2 {
+    font-size: 0.8rem;
+    width: 200px;
+  }
+  .mainFour .mainFourAProcess {
+    gap: 5%;
+    margin-top: 0;
+  }
+  .mainFour .mainFourAProcess div ul {
+    padding-left: 0 !important;
+  }
+  .mainFour .mainFourAProcess div ul li {
+    width: 50px;
+    height: 35px;
+    font-size: 0.6rem;
+  }
+  .mainFour .mainFourAProcess div ul li .one {
+    width: 15px;
+    height: 15px;
+  }
+  .mainFour .mainFourAProcess div ul li .two {
+    width: 15px;
+    height: 15px;
+  }
+  .mainFour .mainFourAProcess div ul li .three {
+    width: 15px;
+    height: 15px;
+  }
+  .mainFour .mainFourAProcess div ul li .four {
+    width: 15px;
+    height: 15px;
+  }
+  .mainFour .mainFourAProcess div ul li .search {
+    width: 25px;
+    height: 25px;
+  }
+  .mainFour .mainFourAProcess div ul li .adoptform {
+    width: 25px;
+    height: 25px;
+  }
+  .mainFour .mainFourAProcess div ul li .meet {
+    width: 25px;
+    height: 25px;
+  }
+  .mainFour .mainFourAProcess div ul li .dog {
+    width: 25px;
+    height: 25px;
+  }
+  .mainFour .mainFourbutton {
+    margin-top: 140px;
+    margin-bottom: 0;
+  }
+  .mainFour .mainFourbutton a {
+    font-size: 0.6rem;
+    transition: all 1.5s;
+  }
+  .mainFour .mainFourbutton a:hover {
+    font-size: 0.8rem;
+    background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+  }
+  .mainFive {
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: 100vw 100vw;
+  }
+  .mainFive p .volunteer {
+    width: 50px;
+    height: 50px;
+  }
+  .mainFive .mainFivetx1 {
+    font-size: 1rem;
+    width: 300px;
+  }
+  .mainFive .mainFivetx2 {
+    font-size: 0.8rem;
+    width: 300px;
+  }
+  .mainFive .mainFiveVolunteer {
+    gap: 1%;
+  }
+  .mainFive .mainFiveVolunteer p .volunteeringImg {
+    width: 320px;
+    height: 200px;
+    padding: 0px 20px;
+  }
+  .mainFive .mainFiveVolunteer .volTx1 {
+    display: none;
+  }
+  .mainFive .mainFiveVolunteer .volTx2 {
+    display: none;
+  }
+  .mainFive .mainFivetx3 {
+    font-size: 1rem;
+  }
+  .mainFive .mainFivebutton a {
+    font-size: 0.8rem;
+    transition: all 1.5s;
+  }
+  .mainFive .mainFivebutton a:hover {
+    font-size: 1rem;
+    background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+  }
+}
+
+
+/*# sourceMappingURL=style.css.map */

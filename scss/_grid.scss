@@ -1,0 +1,38 @@
+.homePage {
+    display: grid;
+    grid-template-areas: "header header header header header header header header header header header header"
+    "main main main main main main main main main main main main"
+    "mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree mainThree"
+    "mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour mainFour"
+    "mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive mainFive"
+    "footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+.servicesPage {
+    display: grid;
+    grid-template-areas: "header header header header header header header header header header header header"
+    "main main main main main main main main main main main main"
+    "mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices mainServices"
+    "footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+.usPage {
+    display: grid;
+    grid-template-areas: "header header header header header header header header header header header header"
+    "main main main main main main main main main main main main"
+    "mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs mainUs"
+    "mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo mainUstwo"
+    "footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+.bepartofPage {
+    display: grid;
+    grid-template-areas: "header header header header header header header header header header header header"
+    "main main main main main main main main main main main main"
+    "mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart mainBepart"
+    "footer footer footer footer footer footer footer footer footer footer footer footer";
+}
+.contactPage {
+    display: grid;
+    grid-template-areas: "header header header header header header header header header header header header"
+    "main main main main main main main main main main main main"
+    "mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact"
+    "footer footer footer footer footer footer footer footer footer footer footer footer";
+}

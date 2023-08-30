@@ -1,0 +1,72 @@
+header {
+	background-color: $background-color_1;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	grid-area: header;
+	border-bottom: 1px solid black;
+	.firstHeader {
+		.logoHome {
+			list-style: none;
+			display: inline-block;
+			position: relative;
+			top: 15px;
+			right: 60px;
+		}
+		.logo {
+			object-fit: contain;
+			width: 200px;
+		}
+		ul {
+			.logoAdogsjoy {
+				font-size: 2.5rem;
+				font-weight: bold;
+				font-style: italic;
+			}
+			.sublogoAdogsjoy {
+				font-size: 0.8rem;
+				font-style: italic;
+				color: $color_1;
+			}
+		}
+	}
+	.secondHeader {
+		.headerTopright {
+			li {
+				width: 70px;
+				height: 50px;
+				display: inline-block;
+				cursor: pointer;
+				font-size: 1.2rem;
+				text-align: center;
+				object-fit: contain;
+				.iconOne {
+					width: 55px;
+					height: 50px;
+				}
+				.iconTwo {
+					width: 40px;
+					height: 40px;
+				}
+				.iconThree {
+					width: 40px;
+					height: 40px;
+				}
+				.iconFour {
+					width: 40px;
+					height: 40px;
+				}
+				.iconFive {
+					width: 70px;
+					height: 70px;
+					position: relative;
+					bottom: 10px;
+				}
+				.iconSix {
+					width: 40px;
+					height: 40px;
+				}
+			}
+		}
+	}
+}

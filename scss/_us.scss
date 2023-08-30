@@ -1,0 +1,144 @@
+.mainUs {
+	background-image: url(../img/girl-dog.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 600px;
+	height: 600px;
+	border: 1px solid black;
+	padding: 100px 100px;
+	display: flex;
+	flex-direction: column;
+	grid-area: mainUs;
+	.subtitleUs {
+		font-size: 2rem;
+		text-align: start;
+		color: $color_4;
+		font-weight: bold;
+	}
+	.contentUs {
+		font-size: 1.2rem;
+		text-align: justify;
+		width: 350px;
+		padding: 10px 0px;
+	}
+	.textUs {
+		margin-top: 70px;
+		font-size: 2rem;
+		text-align: start;
+		color: $color_3;
+		margin-left: 31%;
+	}
+	.mainbuttonUs {
+		text-align: start;
+		margin-top: 15px;
+		margin-left: 30%;
+		.buttonUs {
+			text-decoration: none;
+			color: $color_3;
+			background-color: $background-color_1;
+			border-radius: 5px;
+			border: 1px solid black;
+			padding: 5px 15px;
+			cursor: pointer;
+			font-size: 1.2rem;
+            transition: all 1.5s;
+            &:hover{
+                font-size: 1.4rem;
+                background: radial-gradient($background-color_1, #ffe99a);
+            }
+		}
+	}
+}
+.mainUstwo {
+	height: 900px;
+	background-image: url(../img/happy-hipster-guy-glasses-pet-dog-smiling-cute-black-pug-enjoy-spending-time-with-owner-looki.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 900px;
+	grid-area: mainUstwo;
+	.blockUstwo {
+		display: flex;
+		justify-content: center;
+		align-items: flex-end;
+		flex-direction: column;
+		margin-right: 10%;
+		.subtitleUstwo {
+			padding-top: 80px;
+			font-size: 2rem;
+			color: $color_4;
+			text-align: end;
+		}
+		.contentUstwo {
+			font-size: 1.2rem;
+			text-align: justify;
+			width: 400px;
+			padding: 10px 0px;
+		}
+	}
+	.rowImgUs1 {
+		display: flex;
+		justify-content: flex-start;
+		gap: 5%;
+		align-items: center;
+		height: 200px;
+		padding: 0px 16%;
+		.rowoneImgUs {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.rowtwoImgUs {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+	.rowImgUs2 {
+		display: flex;
+		justify-content: flex-start;
+		gap: 5%;
+		align-items: center;
+		height: 200px;
+		padding: 0px 6%;
+		.rowthreeImgUs {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.rowfourImgUs {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+	}
+	.rowImg {
+		width: 150px;
+		height: 150px;
+		border-radius: 50%;
+		margin-top: 100px;
+		border: 1px solid black;
+		object-fit: cover;
+	}
+	.rowonePosUs {
+		text-align: start;
+		font-size: 0.6rem;
+		padding: 5px 15px;
+	}
+	.rowoneBox {
+		display: inline-block;
+		list-style: none;
+		font-size: 1.5rem;
+		text-align: start;
+		li {
+			list-style: none;
+			display: inline-block;
+			padding: 0px 5px;
+		}
+	}
+	.rowoneimgBox {
+		display: inline-block;
+		cursor: pointer;
+	}
+	.rowoneNameUs {
+		cursor: pointer;
+	}
+}
+

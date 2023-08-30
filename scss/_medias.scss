@@ -1,0 +1,918 @@
+
+/* SECCION PARA RESPONSIVE */
+
+@media (min-width: 993px) and (max-width:1200px){
+    header {
+        justify-content: flex-start;
+        .firstHeader {
+            .logo {
+                width: 25%;
+            }
+            ul {
+                .logoAdogsjoy {
+                    font-size: 2rem;
+                }
+                .sublogoAdogsjoy {
+                    font-size: 0.6rem;
+                }
+            }
+        }
+        .secondHeader {
+            .headerTopright {
+                li {
+                    width: 60px;
+                }
+            }
+        }
+    }
+    #logIn{
+        display: none;
+    }
+    #signUp{
+        display: none;
+    }
+
+    .mainBepart {
+        height: 1350px;
+        div {
+            ul {
+                .subtitleBepart {
+                    font-size: 1.5rem;
+                }
+                .contentBepart {
+                    font-size: 0.8rem;
+                    width: 150px;
+                }
+                .buttonBepart {
+                    .buttonBepartlink {
+                     font-size: 1rem;
+                     transition: all 1.5s;
+                     &:hover{
+                         font-size: 1.2rem;
+                         background: radial-gradient($background-color_1, #ffe99a);
+                     }
+                    }
+                }
+                .buttonBepartleft {
+                    .buttonBepartlink {
+                     font-size: 1rem;
+                     transition: all 1.5s;
+                     &:hover{
+                         font-size: 1.2rem;
+                         background: radial-gradient($background-color_1, #ffe99a);
+                     }
+                    }
+                }
+                .subtitleBepartleft {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .bepartImg {
+            width: 150px;
+            height: 150px;
+        }
+    }
+    .mainUstwo {
+        background-size: 115vw 900px;
+        .rowImgUs1 {
+            padding: 0px 2%;
+        }
+        .rowImgUs2 {
+            padding: 0px 10%;
+        }
+    }
+}
+@media (min-width: 769px) and (max-width:992px) {
+    footer {
+        .noDisplayMobile {
+            display: none;
+        }
+    }
+    #logIn{
+        display: none;
+    }
+    #signUp{
+        display: none;
+    }
+    header {
+        justify-content: flex-start;
+        .firstHeader {
+            width: 400px;
+            .logo {
+                width: 25%;
+            }
+            ul {
+                .logoAdogsjoy {
+                    font-size: 2rem;
+                }
+                .sublogoAdogsjoy {
+                    font-size: 0.6rem;
+                }
+            }
+        }
+        .secondHeader {
+            .headerTopright {
+                li {
+                    width: 45px;
+                }
+                .iconOne{
+                    position: relative;
+                    right:15px;
+                }
+                .iconSix{
+                    position: relative;
+                    left:25px;
+                }
+            }
+        }
+    }
+
+    .mainContact {
+        background-image: none;
+        height: 1750px;
+        .listContact {
+            text-align: center;
+            margin-left: 0;
+            ul {
+                padding-left: 0 !important;
+            }
+            .ftextContact {
+                text-align: center;
+                font-size: 1.2rem;
+                width: 100%;
+                margin-right: 0;
+            }
+        }
+        .pfinalImgContact {
+            .finalImgContact {
+                width: 100%;
+                margin-left: 0;
+            }
+            margin-bottom: 0px !important;
+        }
+    }
+    #message {
+        width: 80%;
+    }
+
+    .mainBepart {
+        background-image: none;
+        height: 1200px;
+        div {
+            ul {
+                .subtitleBepart {
+                    font-size: 1.5rem;
+                }
+                .contentBepart {
+                    font-size: 0.8rem;
+                    width: 150px;
+                }
+                .buttonBepart {
+                    .buttonBepartlink {
+                        font-size: 1rem;
+                        transition: all 1.5s;
+                        &:hover{
+                            font-size: 1.2rem;
+                            background: radial-gradient($background-color_1, #ffe99a);
+                        }
+                    }
+                }
+                .buttonBepartleft {
+                    .buttonBepartlink {
+                     font-size: 1rem;
+                     transition: all 1.5s;
+                     &:hover{
+                         font-size: 1.2rem;
+                         background: radial-gradient($background-color_1, #ffe99a);
+                     }
+                    }
+                }
+                .subtitleBepartleft {
+                    font-size: 1.5rem;
+                }
+            }
+        }
+        .bepartImg {
+            width: 150px;
+            height: 150px;
+        }
+    }
+
+    .mainUstwo {
+        background-image: none;
+        height: 800px;
+        .blockUstwo {
+            justify-content: center;
+            align-items: center;
+            .subtitleUstwo {
+                text-align: center;
+            }
+            .contentUstwo {
+                text-align: justify;
+                font-size: 1rem;
+            }
+        }
+        .rowImgUs1 {
+            padding: 0px 10%;
+        }
+        .rowImgUs2 {
+            padding: 0px 10%;
+        }
+    }
+
+    .mainUs {
+        padding: 100px 50px;
+        .subtitleUs {
+            font-size: 1.8rem;
+        }
+        .contentUs {
+            font-size: 1rem;
+            width: 250px;
+        }
+        .textUs {
+            font-size: 1.6rem;
+            margin-left: 22%;
+        }
+        .mainbuttonUs {
+            margin-left: 20%;
+            .buttonUs {
+                font-size: 1rem;
+                transition: all 1.5s;
+                &:hover{
+                    font-size: 1.2rem;
+                    background: radial-gradient($background-color_1, #ffe99a);
+                }
+            }
+        }
+    }
+
+    .mainServices {
+        .adoptingServices {
+            gap: 3%;
+        }
+        .rescueServices {
+            gap: 3%;
+        }
+        .deliverServices {
+            gap: 3%;
+        }
+        .findServices {
+            gap: 3%;
+        }
+        .reportServices {
+            gap: 3%;
+        }
+        .trainServices {
+            gap: 3%;
+        }
+        div {
+            ul {
+                .subtitleServices {
+                    font-size: 1.2rem;
+                }
+                .contentServices {
+                    font-size: 0.8rem;
+                    width: 150px;
+                }
+            }
+        }
+        .buttonServices {
+            .buttonServiceslink {
+                font-size: 0.8rem;
+                transition: all 1.5s;
+                &:hover{
+                    font-size: 1rem;
+                    background: radial-gradient($background-color_1, #ffe99a);
+                }
+            }
+        }
+        p {
+            .servicesImg {
+                width: 150px;
+                height: 150px;
+            }
+        }
+    }
+    
+    .mainThree {
+        .photoOne {
+            background-size: 100px 100px;
+            width: 100px;
+            height: 100px;
+        }
+        .photoTwo {
+            background-size: 100px 100px;
+            width: 100px;
+            height: 100px;
+        }
+        .photoThree {
+            background-size: 100px 100px;
+            width: 100px;
+            height: 100px;
+        }
+        .photoFour {
+            background-size: 100px 100px;
+            width: 100px;
+            height: 100px;
+        }
+    }
+    
+    .mainFour {
+        height: 700px;
+        .mainFourAProcess {
+            gap: 1%;
+            div {
+                ul {
+                    li {
+                        width: 100px;
+                        height: 35px;
+                        font-size: 1rem;
+                        .one {
+                            width: 25px;
+                            height: 25px;
+                        }
+                        .two {
+                            width: 25px;
+                            height: 25px;
+                        }
+                        .three {
+                            width: 25px;
+                            height: 25px;
+                        }
+                        .four {
+                            width: 25px;
+                            height: 25px;
+                        }
+                        .search {
+                            width: 50px;
+                            height: 50px;
+                        }
+                        .adoptform {
+                            width: 50px;
+                            height: 50px;
+                        }
+                        .meet {
+                            width: 50px;
+                            height: 50px;
+                        }
+                        .dog {
+                            width: 50px;
+                            height: 50px;
+                        }
+                    }
+                }
+            }
+        }
+        .mainFourbutton {
+            margin-top: 200px;
+            a {
+                font-size: 0.8rem;
+                transition: all 1.5s;
+                &:hover{
+                    font-size: 1rem;
+                    background: radial-gradient($background-color_1, #ffe99a);
+                }
+            }
+        }
+    }
+
+    
+.mainFive {
+    height: 700px;
+	p {
+		.volunteer {
+            width: 50px;
+            height: 50px;
+		}
+	}
+	.mainFivetx1 {
+        font-size: 2rem;
+	}
+	.mainFivetx2 {
+        font-size: 1.2rem;
+	}
+	.mainFiveVolunteer {
+
+		p {
+
+			.volunteeringImg {
+                width: 400px;
+			}
+		}
+		.volTx1 {
+            width: 100px;
+            font-size: 0.8rem;
+		}
+		.volTx2 {
+            width: 100px;
+            font-size: 0.8rem;
+		}
+    }
+		.mainFivetx3 {
+	        font-size: 1rem;
+		}
+		.mainFivebutton {
+	
+			a {
+                font-size: 0.8rem;
+                transition: all 1.5s;
+                &:hover{
+                    font-size: 1rem;
+                    background: radial-gradient($background-color_1, #ffe99a);
+                }
+			}
+		}
+	
+}
+
+}
+@media (min-width: 320px) and (max-width:768px) {
+    footer {
+        .footerOne {
+            padding-left: 25px;
+            padding-right: 25px;
+            div {
+                h2 {
+                    font-size: 1rem;
+                    font-weight: bold;
+                    text-align: center;
+                    padding: 20px 0px;
+                    margin-bottom: 0;
+                }
+                
+                p {
+                    font-size: 0.7rem;
+                    width: 150px;
+                    text-align: justify;
+                }
+                
+            }
+            .footerContact{
+                li {
+                    font-size: 0.7rem;
+                    width: 150px;
+                }
+            }
+        }
+        .noDisplayMobile {
+        display: none;
+        }
+        .noDisplayMobile2{
+            display: none;
+        }
+        .footerTwo {
+            justify-content: center;
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
+    #logIn{
+        display: none;
+    }
+    #signUp{
+        display: none;
+    }
+    header {
+        justify-content: flex-start;
+        .firstHeader {
+            width: 100%;
+            .logo {
+                width: 25%;
+            }
+            ul {
+                .logoAdogsjoy {
+                    font-size: 1.6rem;
+                }
+                .sublogoAdogsjoy {
+                    font-size: 0.5rem;
+                }
+            }
+        }
+        .secondHeader {
+                display: none;
+            .headerTopright {
+                li {
+                    width: 45px;
+                }
+                .iconOne{
+                    position: relative;
+                    right:15px;
+                }
+                .iconSix{
+                    position: relative;
+                    left:25px;
+                }
+            }
+        }
+    }
+
+    main {
+        .mainText {
+            margin-top: 30px;
+            ul {
+                li {
+                    font-size: 1rem;
+                    .buttonApply {
+                        font-size: 0.6rem;
+                        transition: all 1.5s;
+                        &:hover{
+                            font-size: 0.8rem;
+                            background: radial-gradient($background-color_1, #ffe99a);
+                        }
+                    }
+                }
+            }
+        }
+        .mainTexttwo {
+            text-align: justify;
+            font-size: 0.8rem;
+            width: 65%;
+        }
+        .mainTextthree {
+            font-size: 1rem;
+            padding: 0px 10px;
+        }
+    }
+    
+
+    .mainContact {
+        background-image: none;
+        height: 1690px;
+        .listContact {
+            text-align: center;
+            margin-left: 0;
+            font-size: 1rem;
+            ul {
+                padding-left: 0 !important;
+            }
+            .ftextContact {
+                text-align: center;
+                font-size: 1rem;
+                width: 100%;
+                margin-right: 0;
+            }
+        }
+        .pfinalImgContact {
+            .finalImgContact {
+                width: 100%;
+                margin-left: 0;
+            }
+            margin-bottom: 0px !important;
+        }
+    }
+    #message {
+        width: 80%;
+    }
+
+    .mainBepart {
+        background-image: none;
+        height: 1100px;
+        .donatingBepart {
+            justify-content: center;
+        }
+        .volunteeringBepart {
+            justify-content: center;
+        }
+        .sponsorBepart {
+            justify-content: center;
+        }
+        .joinBepart {
+            justify-content: center;
+        }
+        div {
+            ul {
+                .subtitleBepart {
+                    font-size: 1.1rem;
+                }
+                .contentBepart {
+                    font-size: 0.7rem;
+                    width: 120px;
+                }
+                .buttonBepart {
+                    .buttonBepartlink {
+                        font-size: 0.9rem;
+                        transition: all 1.5s;
+                        &:hover{
+                            font-size: 1.1rem;
+                            background: radial-gradient($background-color_1, #ffe99a);
+                        }
+                    }
+                }
+                .buttonBepartleft {
+                    .buttonBepartlink {
+                     font-size: 0.9rem;
+                     transition: all 1.5s;
+                     &:hover{
+                         font-size: 1.1rem;
+                         background: radial-gradient($background-color_1, #ffe99a);
+                     }
+                    }
+                }
+                .subtitleBepartleft {
+                    font-size: 1.1rem;
+                }
+            }
+        }
+        .bepartImg {
+            width: 120px;
+            height: 120px;
+        }
+    }
+
+    .mainUstwo {
+        background-image: none;
+        height: 800px;
+        .blockUstwo {
+            justify-content: center;
+            align-items: center;
+            padding-left: 10px;
+            padding-right: 10px;
+            margin-right: 0;
+            .subtitleUstwo {
+                text-align: center;
+                font-size: 1.5rem;
+                margin-left: 0px;
+            }
+            .contentUstwo {
+                text-align: justify;
+                font-size: 1rem;
+                width: 250px;
+                margin-left: 0px;
+            }
+        }
+        .rowImgUs1 {
+            padding: 0;
+            justify-content: center;
+        }
+        .rowImgUs2 {
+            padding: 0;
+            justify-content: center;
+        }
+        .rowImg {
+            width: 75px;
+            height: 75px;
+            margin-top: 25px;
+        }
+        .rowonePosUs {
+            font-size: 0.5rem;
+        }
+        .rowoneBox {
+            width: 50px;
+        }
+        .rowoneNameUs {
+            font-size: 1.2rem;
+        }
+    }
+
+    .mainUs {
+        padding: 100px 25px;
+        background-size: 220vw 600px;
+        align-items: center;
+        .subtitleUs {
+            font-size: 1.8rem;
+        }
+        .contentUs {
+            font-size: 1rem;
+            width: 250px;
+        }
+        .textUs {
+            font-size: 1.6rem;
+            margin: 0;
+        }
+        .mainbuttonUs {
+            margin: 0;
+            padding: 10px 0px;
+            .buttonUs {
+                font-size: 1rem;
+                transition: all 1.5s;
+                &:hover{
+                    font-size: 1.2rem;
+                    background: radial-gradient($background-color_1, #ffe99a);
+                }
+            }
+        }
+    }
+
+    .mainServices {
+        background-image: none;
+        height: 1100px;
+        .adoptingServices {
+            gap: 2%;
+            margin-left: 0;
+            margin-bottom: 25px;
+            justify-content: center;
+            height: 150px;
+        }
+        .rescueServices {
+            gap: 2%;
+            margin-left: 0;
+            margin-bottom: 25px;
+            justify-content: center;
+            height: 150px;
+        }
+        .deliverServices {
+            gap: 2%;
+            margin-left: 0;
+            margin-bottom: 25px;
+            justify-content: center;
+            height: 150px;
+        }
+        .findServices {
+            gap: 2%;
+            margin-left: 0;
+            margin-bottom: 25px;
+            justify-content: center;
+            height: 150px;
+        }
+        .reportServices {
+            gap: 2%;
+            margin-left: 0;
+            margin-bottom: 25px;
+            justify-content: center;
+            height: 150px;
+        }
+        .trainServices {
+            gap: 2%;
+            margin-left: 0;
+            margin-bottom: 25px;
+            justify-content: center;
+            align-items: center;
+            height: 150px;
+        }
+        div {
+            ul {
+                .subtitleServices {
+                    font-size: 1rem;
+                    width: 120px;
+                }
+                .contentServices {
+                    font-size: 0.7rem;
+                    width: 120px;
+                }
+            }
+        }
+        .buttonServices {
+            .buttonServiceslink {
+                font-size: 0.7rem;
+                padding: 5px 5px;
+                transition: all 1.5s;
+                &:hover{
+                    font-size: 0.8rem;
+                    background: radial-gradient($background-color_1, #ffe99a);
+                }
+            }
+        }
+        p {
+            .servicesImg {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    }
+    
+    .mainThree {
+        .photoOne {
+            background-size: 250px 200px;
+            width: 250px;
+            height: 200px;
+        }
+        .photoTwo {
+            display: none;
+        }
+        .photoThree {
+            display: none;
+        }
+        .photoFour {
+            display: none;
+        }
+    }
+    
+    .mainFour {
+        height: 550px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-size: 100vw 100vw;
+        .mainFourtx1 {
+            font-size: 1rem;
+            width: 120px;
+        }
+        .mainFourtx2 {
+            font-size: 0.8rem;
+            width: 200px;
+        }
+        .mainFourAProcess {
+            gap: 5%;
+            margin-top: 0;
+            div {
+                ul {
+                    padding-left: 0 !important;
+                    li {
+                        width: 50px;
+                        height: 35px;
+                        font-size: 0.6rem;
+                        .one {
+                            width: 15px;
+                            height: 15px;
+                        }
+                        .two {
+                            width: 15px;
+                            height: 15px;
+                        }
+                        .three {
+                            width: 15px;
+                            height: 15px;
+                        }
+                        .four {
+                            width: 15px;
+                            height: 15px;
+                        }
+                        .search {
+                            width: 25px;
+                            height: 25px;
+                        }
+                        .adoptform {
+                            width: 25px;
+                            height: 25px;
+                        }
+                        .meet {
+                            width: 25px;
+                            height: 25px;
+                        }
+                        .dog {
+                            width: 25px;
+                            height: 25px;
+                        }
+                    }
+                }
+            }
+        }
+        .mainFourbutton {
+            margin-top: 140px;
+            margin-bottom: 0;
+            a {
+                font-size: 0.6rem;
+                transition: all 1.5s;
+                &:hover{
+                    font-size: 0.8rem;
+                    background: radial-gradient($background-color_1, #ffe99a);
+                }
+            }
+        }
+    }
+
+    
+.mainFive {
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-size: 100vw 100vw;
+	p {
+		.volunteer {
+            width: 50px;
+            height: 50px;
+		}
+	}
+	.mainFivetx1 {
+        font-size: 1rem;
+        width: 300px;
+	}
+	.mainFivetx2 {
+        font-size: 0.8rem;
+        width: 300px;
+	}
+	.mainFiveVolunteer {
+        gap: 1%;
+		p {
+			.volunteeringImg {
+                width: 320px;
+                height: 200px;
+                padding: 0px 20px;
+			}
+		}
+		.volTx1 {
+            display: none;
+		}
+		.volTx2 {
+            display: none;
+		}
+    }
+		.mainFivetx3 {
+            font-size: 1rem;
+		}
+		.mainFivebutton {
+			a {
+                font-size: 0.8rem;
+                transition: all 1.5s;
+                &:hover{
+                    font-size: 1rem;
+                    background: radial-gradient($background-color_1, #ffe99a);
+                }
+			}
+		}
+	
+}
+}

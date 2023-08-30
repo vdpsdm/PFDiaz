@@ -1,0 +1,49 @@
+.mainContact {
+	background-image: url(../img/portrait-happy-woman-with-digital-tablet.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 2000px;
+	height: 1780px;
+	grid-area: mainContact;
+	.subtitleContact {
+		text-align: center;
+		font-size: 1.5rem;
+		padding: 5px 0px;
+	}
+	.textContact {
+		text-align: center;
+		font-size: 1.2rem;
+		padding: 5px 0px;
+	}
+	.listContact {
+		ul {
+			li {
+				list-style: none;
+				padding: 10px 0px;
+			}
+		}
+		margin-top: 125px;
+		margin-left: 9%;
+		font-size: 1.2rem;
+		.buttonContact {
+			text-align: end;
+			display: inline-block;
+		}
+		.ftextContact {
+			text-align: justify;
+			font-size: 1.2rem;
+			width: 54%;
+		}
+	}
+	.pfinalImgContact {
+		.finalImgContact {
+			width: 49%;
+			height: 300px;
+			margin-left: 9%;
+		}
+		margin-bottom: 0px !important;
+	}
+}
+#message {
+	width: 50%;
+}
+

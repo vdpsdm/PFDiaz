@@ -1,0 +1,139 @@
+.mainBepart {
+	background-image: url(../img/Presentation4.png);
+	background-repeat: no-repeat;
+	background-size: 100% 1850px;
+	height: 1850px;
+	grid-area: mainBepart;
+	.donatingBepart {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		gap: 2%;
+		padding-left: 5%;
+		padding-bottom: 3%;
+		width: auto;
+		div {
+			ul {
+				li {
+					list-style: none;
+				}
+			}
+		}
+	}
+	.volunteeringBepart {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		gap: 2%;
+		padding-right: 7%;
+		padding-bottom: 3%;
+		width: auto;
+		div {
+			ul {
+				li {
+					list-style: none;
+				}
+			}
+		}
+	}
+	.sponsorBepart {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		gap: 2%;
+		padding-left: 5%;
+		padding-bottom: 3%;
+		width: auto;
+		div {
+			ul {
+				li {
+					list-style: none;
+				}
+			}
+		}
+	}
+	.joinBepart {
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+		gap: 2%;
+		padding-right: 7%;
+		padding-bottom: 3%;
+		width: auto;
+		div {
+			ul {
+				li {
+					list-style: none;
+				}
+			}
+		}
+	}
+	div {
+		ul {
+			.subtitleBepart {
+				color: $color_4;
+				font-size: 2rem;
+				padding-top: 5%;
+				padding-bottom: 1%;
+				text-align: end;
+			}
+			.contentBepart {
+				color: $color_3;
+				font-size: 1.2rem;
+				width: 200px;
+				text-align: justify;
+			}
+			.buttonBepart {
+				margin-top: 30px;
+				text-align: end;
+				.buttonBepartlink {
+					text-decoration: none;
+					color: $color_3;
+					background-color: $background-color_1;
+					border-radius: 5px;
+					border: 1px solid black;
+					padding: 5px 15px;
+					cursor: pointer;
+					font-size: 1.5rem;
+                    transition: all 1.5s;
+                    &:hover{
+                        font-size: 1.7rem;
+                        background: radial-gradient($background-color_1, #ffe99a);
+                    }
+				}
+			}
+			.subtitleBepartleft {
+				color: $color_4;
+				font-size: 2rem;
+				padding-top: 5%;
+				padding-bottom: 1%;
+				text-align: start;
+			}
+			.buttonBepartleft {
+				margin-top: 30px;
+				text-align: start;
+                .buttonBepartlink {
+					text-decoration: none;
+					color: $color_3;
+					background-color: $background-color_1;
+					border-radius: 5px;
+					border: 1px solid black;
+					padding: 5px 15px;
+					cursor: pointer;
+					font-size: 1.5rem;
+                    transition: all 1.5s;
+                    &:hover{
+                        font-size: 1.7rem;
+                        background: radial-gradient($background-color_1, #ffe99a);
+                    }
+				}
+			}
+		}
+	}
+	.bepartImg {
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
+	}
+}
+
