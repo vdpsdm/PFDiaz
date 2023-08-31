@@ -28,7 +28,6 @@ header {
   grid-area: header;
   border-bottom: 1px solid black;
 }
-
 header .firstHeader .logoHome {
   list-style: none;
   display: inline-block;
@@ -36,24 +35,20 @@ header .firstHeader .logoHome {
   top: 15px;
   right: 60px;
 }
-
 header .firstHeader .logo {
   object-fit: contain;
   width: 200px;
 }
-
 header .firstHeader ul .logoAdogsjoy {
   font-size: 2.5rem;
   font-weight: bold;
   font-style: italic;
 }
-
 header .firstHeader ul .sublogoAdogsjoy {
   font-size: 0.8rem;
   font-style: italic;
   color: rgba(255, 255, 255, 0.858);
 }
-
 header .secondHeader .headerTopright li {
   width: 70px;
   height: 50px;
@@ -63,34 +58,28 @@ header .secondHeader .headerTopright li {
   text-align: center;
   object-fit: contain;
 }
-
 header .secondHeader .headerTopright li .iconOne {
   width: 55px;
   height: 50px;
 }
-
 header .secondHeader .headerTopright li .iconTwo {
   width: 40px;
   height: 40px;
 }
-
 header .secondHeader .headerTopright li .iconThree {
   width: 40px;
   height: 40px;
 }
-
 header .secondHeader .headerTopright li .iconFour {
   width: 40px;
   height: 40px;
 }
-
 header .secondHeader .headerTopright li .iconFive {
   width: 70px;
   height: 70px;
   position: relative;
   bottom: 10px;
 }
-
 header .secondHeader .headerTopright li .iconSix {
   width: 40px;
   height: 40px;
@@ -104,29 +93,24 @@ main {
   width: auto;
   grid-area: main;
 }
-
 main .mainMenu {
   display: flex;
   justify-content: flex-end;
 }
-
 main .mainMenu .dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0;
 }
-
 main .mainText {
   display: flex;
   justify-content: flex-start;
 }
-
 main .mainText ul li {
   list-style: none;
   font-size: 1.5rem;
   display: inline-block;
   color: rgb(236, 203, 71);
 }
-
 main .mainText ul li .buttonApply {
   text-decoration: none;
   color: black;
@@ -137,19 +121,16 @@ main .mainText ul li .buttonApply {
   font-size: 1rem;
   transition: all 1.5s;
 }
-
 main .mainText ul li .buttonApply:hover {
   font-size: 1.2rem;
   background: radial-gradient(rgb(238, 216, 124), #ffe99a);
 }
-
 main .mainTexttwo {
   color: black;
   padding: 0px 35px;
   width: 30%;
   text-align: justify;
 }
-
 main .mainTextthree {
   margin-top: 275px;
   padding: 15px 0px;
@@ -164,126 +145,59 @@ main .mainTextthree {
 .mainThree {
   background-image: url(../img/vecteezy_artificial-grass-texture-banner_3086563.jpg);
   background-repeat: no-repeat;
-  background-size: 100% 350px;
-  height: 250px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-flow: row wrap;
+  background-size: 100vw 450px;
+  height: 400px;
   border-bottom: 1px solid black;
   border-right: 1px solid black;
   border-left: 1px solid black;
   grid-area: mainThree;
 }
-
-.mainThree p .leftMain {
-  width: 25px;
-  height: 25px;
+.mainThree .mainTextthree2 {
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+}
+.mainThree .carousel {
+  height: 350px;
+}
+.mainThree .carousel .left {
+  width: 35px;
+  height: 35px;
   background-color: rgb(238, 216, 124);
   border: 1px solid black;
-  cursor: pointer;
   border-radius: 50%;
+  margin-top: 300px;
+  margin-left: 700px;
 }
-
-.mainThree p .rightMain {
-  width: 25px;
-  height: 25px;
+.mainThree .carousel .right {
+  width: 35px;
+  height: 35px;
   background-color: rgb(238, 216, 124);
   border: 1px solid black;
-  cursor: pointer;
   border-radius: 50%;
+  margin-top: 300px;
+  margin-right: 700px;
 }
-
-.mainThree .photoOne {
-  width: 200px;
-  height: 150px;
-  border: 1px solid black;
-  border-radius: 25%;
+.mainThree .carousel .carousel-inner .carousel-item .photo {
+  width: 24.3%;
+  height: 300px;
+  cursor: pointer;
   display: flex;
-  background-image: url(../img/erda-estremera-JBrbzg5N7Go-unsplash.jpg);
-  background-size: 200px 150px;
-  background-repeat: no-repeat;
+  flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  margin-top: 50px;
+}
+.mainThree .carousel .carousel-inner .carousel-item .photo img {
+  width: 175px;
+  height: 220px;
+  border-radius: 25%;
+  border: 1px solid black;
+  object-fit: cover;
 }
 
-.mainThree .photoOne a {
-  color: black;
-  font-size: 0.5rem;
-  text-decoration: none;
-  border: 1px solid black;
-  background-color: rgb(238, 216, 124);
-  border-radius: 25%;
-  padding: 0px 5px;
-}
-
-.mainThree .photoTwo {
-  width: 200px;
-  height: 150px;
-  border: 1px solid black;
-  border-radius: 25%;
-  display: flex;
-  background-image: url(../img/milli-2l0CWTpcChI-unsplash.jpg);
-  background-size: 200px 150px;
-  background-repeat: no-repeat;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.mainThree .photoTwo a {
-  color: black;
-  font-size: 0.5rem;
-  text-decoration: none;
-  border: 1px solid black;
-  background-color: rgb(238, 216, 124);
-  border-radius: 25%;
-  padding: 0px 5px;
-}
-
-.mainThree .photoThree {
-  width: 200px;
-  height: 150px;
-  border: 1px solid black;
-  border-radius: 25%;
-  display: flex;
-  background-image: url(../img/baptist-standaert-mx0DEnfYxic-unsplash.jpg);
-  background-size: 200px 150px;
-  background-repeat: no-repeat;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.mainThree .photoThree a {
-  color: black;
-  font-size: 0.5rem;
-  text-decoration: none;
-  border: 1px solid black;
-  background-color: rgb(238, 216, 124);
-  border-radius: 25%;
-  padding: 0px 5px;
-}
-
-.mainThree .photoFour {
-  width: 200px;
-  height: 150px;
-  border: 1px solid black;
-  border-radius: 25%;
-  display: flex;
-  background-image: url(../img/camylla-battani-AoqgGAqrLpU-unsplash.jpg);
-  background-size: 200px 150px;
-  background-repeat: no-repeat;
-  justify-content: center;
-  align-items: flex-end;
-}
-
-.mainThree .photoFour a {
-  color: black;
-  font-size: 0.5rem;
-  text-decoration: none;
-  border: 1px solid black;
-  background-color: rgb(238, 216, 124);
-  border-radius: 25%;
-  padding: 0px 5px;
+.mainFourmobile {
+  display: none;
 }
 
 .mainFour {
@@ -294,16 +208,13 @@ main .mainTextthree {
   text-align: center;
   grid-area: mainFour;
 }
-
 .mainFour .mainFourtx1 {
   font-size: 2rem;
   padding-top: 40px;
 }
-
 .mainFour .mainFourtx2 {
   font-size: 1.2rem;
 }
-
 .mainFour .mainFourAProcess {
   display: flex;
   justify-content: center;
@@ -311,7 +222,6 @@ main .mainTextthree {
   align-items: center;
   margin-top: 50px;
 }
-
 .mainFour .mainFourAProcess div ul li {
   list-style: none;
   width: 150px;
@@ -319,64 +229,54 @@ main .mainTextthree {
   text-align: center;
   padding: 25px 0px;
 }
-
 .mainFour .mainFourAProcess div ul li .one {
   width: 25px;
   height: 25px;
   text-align: center;
 }
-
 .mainFour .mainFourAProcess div ul li .two {
   width: 25px;
   height: 25px;
   text-align: center;
 }
-
 .mainFour .mainFourAProcess div ul li .three {
   width: 25px;
   height: 25px;
   text-align: center;
 }
-
 .mainFour .mainFourAProcess div ul li .four {
   width: 25px;
   height: 25px;
   text-align: center;
 }
-
 .mainFour .mainFourAProcess div ul li .search {
   width: 50px;
   height: 50px;
   text-align: center;
 }
-
 .mainFour .mainFourAProcess div ul li .adoptform {
   width: 50px;
   height: 50px;
   text-align: center;
 }
-
 .mainFour .mainFourAProcess div ul li .meet {
   width: 50px;
   height: 50px;
   text-align: center;
 }
-
 .mainFour .mainFourAProcess div ul li .dog {
   width: 50px;
   height: 50px;
   text-align: center;
 }
-
-.mainFour .mainFourAProcess div ul li .listYellow {
+.mainFour .mainFourAProcess div ul .listYellow {
   color: rgb(238, 216, 124);
   font-size: 1.2rem;
 }
-
 .mainFour .mainFourbutton {
   margin: 100px;
+  margin-top: 150px;
 }
-
 .mainFour .mainFourbutton a {
   text-decoration: none;
   color: black;
@@ -388,7 +288,6 @@ main .mainTextthree {
   font-size: 1.2rem;
   transition: all 1s;
 }
-
 .mainFour .mainFourbutton a:hover {
   font-size: 1.4rem;
   background: radial-gradient(rgb(238, 216, 124), #ffe99a);
@@ -402,30 +301,24 @@ main .mainTextthree {
   text-align: center;
   grid-area: mainFive;
 }
-
 .mainFive p .volunteer {
   width: 50px;
   height: 50px;
 }
-
 .mainFive .mainFivetx1 {
   font-size: 2rem;
 }
-
 .mainFive .mainFivetx2 {
   font-size: 1.2rem;
 }
-
 .mainFive .mainFiveVolunteer {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .mainFive .mainFiveVolunteer p {
   display: inline-block;
 }
-
 .mainFive .mainFiveVolunteer p .volunteeringImg {
   width: 500px;
   height: 350px;
@@ -433,28 +326,23 @@ main .mainTextthree {
   padding-left: 50px;
   padding-right: 50px;
 }
-
 .mainFive .mainFiveVolunteer .volTx1 {
   text-align: justify;
   font-size: 1rem;
   width: 150px;
 }
-
 .mainFive .mainFiveVolunteer .volTx2 {
   text-align: justify;
   font-size: 1rem;
   width: 150px;
 }
-
 .mainFive .mainFivetx3 {
   font-size: 1.2rem;
   margin: 15px;
 }
-
 .mainFive .mainFivebutton {
   margin: 15px;
 }
-
 .mainFive .mainFivebutton a {
   text-decoration: none;
   color: black;
@@ -466,7 +354,6 @@ main .mainTextthree {
   font-size: 1.2rem;
   transition: all 1.5s;
 }
-
 .mainFive .mainFivebutton a:hover {
   font-size: 1.4rem;
   background: radial-gradient(rgb(238, 216, 124), #ffe99a);
@@ -480,7 +367,6 @@ main .mainTextthree {
   text-align: center;
   grid-area: mainServices;
 }
-
 .mainServices .adoptingServices {
   display: flex;
   align-items: center;
@@ -489,11 +375,9 @@ main .mainTextthree {
   margin-left: 35%;
   height: 250px;
 }
-
 .mainServices .adoptingServices ul li {
   list-style: none;
 }
-
 .mainServices .rescueServices {
   display: flex;
   align-items: center;
@@ -502,11 +386,9 @@ main .mainTextthree {
   margin-left: 20%;
   height: 250px;
 }
-
 .mainServices .rescueServices ul li {
   list-style: none;
 }
-
 .mainServices .deliverServices {
   display: flex;
   align-items: center;
@@ -515,11 +397,9 @@ main .mainTextthree {
   margin-left: 10%;
   height: 250px;
 }
-
 .mainServices .deliverServices ul li {
   list-style: none;
 }
-
 .mainServices .findServices {
   display: flex;
   align-items: center;
@@ -528,11 +408,9 @@ main .mainTextthree {
   margin-left: 10%;
   height: 250px;
 }
-
 .mainServices .findServices ul li {
   list-style: none;
 }
-
 .mainServices .reportServices {
   display: flex;
   align-items: center;
@@ -541,11 +419,9 @@ main .mainTextthree {
   margin-left: 20%;
   height: 250px;
 }
-
 .mainServices .reportServices ul li {
   list-style: none;
 }
-
 .mainServices .trainServices {
   display: flex;
   align-items: center;
@@ -554,29 +430,24 @@ main .mainTextthree {
   margin-left: 35%;
   height: 250px;
 }
-
 .mainServices .trainServices ul li {
   list-style: none;
 }
-
 .mainServices div ul .subtitleServices {
   color: rgb(238, 216, 124);
   font-size: 1.5rem;
   margin-top: 50px;
   margin-bottom: 10px;
 }
-
 .mainServices div ul .contentServices {
   color: black;
   font-size: 1rem;
   width: 200px;
   text-align: justify;
 }
-
 .mainServices .buttonServices {
   margin-top: 50px;
 }
-
 .mainServices .buttonServices .buttonServiceslink {
   text-decoration: none;
   color: black;
@@ -588,12 +459,10 @@ main .mainTextthree {
   font-size: 1.2rem;
   transition: all 1.5s;
 }
-
 .mainServices .buttonServices .buttonServiceslink:hover {
   font-size: 1.4rem;
   background: radial-gradient(rgb(238, 216, 124), #ffe99a);
 }
-
 .mainServices p .servicesImg {
   width: 200px;
   height: 200px;
@@ -612,21 +481,18 @@ main .mainTextthree {
   flex-direction: column;
   grid-area: mainUs;
 }
-
 .mainUs .subtitleUs {
   font-size: 2rem;
   text-align: start;
   color: rgb(238, 216, 124);
   font-weight: bold;
 }
-
 .mainUs .contentUs {
   font-size: 1.2rem;
   text-align: justify;
   width: 350px;
   padding: 10px 0px;
 }
-
 .mainUs .textUs {
   margin-top: 70px;
   font-size: 2rem;
@@ -634,13 +500,11 @@ main .mainTextthree {
   color: black;
   margin-left: 31%;
 }
-
 .mainUs .mainbuttonUs {
   text-align: start;
   margin-top: 15px;
   margin-left: 30%;
 }
-
 .mainUs .mainbuttonUs .buttonUs {
   text-decoration: none;
   color: black;
@@ -652,7 +516,6 @@ main .mainTextthree {
   font-size: 1.2rem;
   transition: all 1.5s;
 }
-
 .mainUs .mainbuttonUs .buttonUs:hover {
   font-size: 1.4rem;
   background: radial-gradient(rgb(238, 216, 124), #ffe99a);
@@ -665,7 +528,6 @@ main .mainTextthree {
   background-size: 100% 900px;
   grid-area: mainUstwo;
 }
-
 .mainUstwo .blockUstwo {
   display: flex;
   justify-content: center;
@@ -673,21 +535,18 @@ main .mainTextthree {
   flex-direction: column;
   margin-right: 10%;
 }
-
 .mainUstwo .blockUstwo .subtitleUstwo {
   padding-top: 80px;
   font-size: 2rem;
   color: rgb(238, 216, 124);
   text-align: end;
 }
-
 .mainUstwo .blockUstwo .contentUstwo {
   font-size: 1.2rem;
   text-align: justify;
   width: 400px;
   padding: 10px 0px;
 }
-
 .mainUstwo .rowImgUs1 {
   display: flex;
   justify-content: flex-start;
@@ -696,19 +555,16 @@ main .mainTextthree {
   height: 200px;
   padding: 0px 16%;
 }
-
 .mainUstwo .rowImgUs1 .rowoneImgUs {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .mainUstwo .rowImgUs1 .rowtwoImgUs {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .mainUstwo .rowImgUs2 {
   display: flex;
   justify-content: flex-start;
@@ -717,19 +573,16 @@ main .mainTextthree {
   height: 200px;
   padding: 0px 6%;
 }
-
 .mainUstwo .rowImgUs2 .rowthreeImgUs {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .mainUstwo .rowImgUs2 .rowfourImgUs {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-
 .mainUstwo .rowImg {
   width: 150px;
   height: 150px;
@@ -738,31 +591,26 @@ main .mainTextthree {
   border: 1px solid black;
   object-fit: cover;
 }
-
 .mainUstwo .rowonePosUs {
   text-align: start;
   font-size: 0.6rem;
   padding: 5px 15px;
 }
-
 .mainUstwo .rowoneBox {
   display: inline-block;
   list-style: none;
   font-size: 1.5rem;
   text-align: start;
 }
-
 .mainUstwo .rowoneBox li {
   list-style: none;
   display: inline-block;
   padding: 0px 5px;
 }
-
 .mainUstwo .rowoneimgBox {
   display: inline-block;
   cursor: pointer;
 }
-
 .mainUstwo .rowoneNameUs {
   cursor: pointer;
 }
@@ -770,11 +618,10 @@ main .mainTextthree {
 .mainBepart {
   background-image: url(../img/Presentation4.png);
   background-repeat: no-repeat;
-  background-size: 100% 1850px;
-  height: 1850px;
+  background-size: 100vw 1650px;
+  height: 1650px;
   grid-area: mainBepart;
 }
-
 .mainBepart .donatingBepart {
   display: flex;
   align-items: center;
@@ -784,11 +631,9 @@ main .mainTextthree {
   padding-bottom: 3%;
   width: auto;
 }
-
 .mainBepart .donatingBepart div ul li {
   list-style: none;
 }
-
 .mainBepart .volunteeringBepart {
   display: flex;
   align-items: center;
@@ -798,11 +643,9 @@ main .mainTextthree {
   padding-bottom: 3%;
   width: auto;
 }
-
 .mainBepart .volunteeringBepart div ul li {
   list-style: none;
 }
-
 .mainBepart .sponsorBepart {
   display: flex;
   align-items: center;
@@ -812,11 +655,9 @@ main .mainTextthree {
   padding-bottom: 3%;
   width: auto;
 }
-
 .mainBepart .sponsorBepart div ul li {
   list-style: none;
 }
-
 .mainBepart .joinBepart {
   display: flex;
   align-items: center;
@@ -826,11 +667,9 @@ main .mainTextthree {
   padding-bottom: 3%;
   width: auto;
 }
-
 .mainBepart .joinBepart div ul li {
   list-style: none;
 }
-
 .mainBepart div ul .subtitleBepart {
   color: rgb(238, 216, 124);
   font-size: 2rem;
@@ -838,19 +677,16 @@ main .mainTextthree {
   padding-bottom: 1%;
   text-align: end;
 }
-
 .mainBepart div ul .contentBepart {
   color: black;
   font-size: 1.2rem;
   width: 200px;
   text-align: justify;
 }
-
 .mainBepart div ul .buttonBepart {
   margin-top: 30px;
   text-align: end;
 }
-
 .mainBepart div ul .buttonBepart .buttonBepartlink {
   text-decoration: none;
   color: black;
@@ -862,12 +698,10 @@ main .mainTextthree {
   font-size: 1.5rem;
   transition: all 1.5s;
 }
-
 .mainBepart div ul .buttonBepart .buttonBepartlink:hover {
   font-size: 1.7rem;
   background: radial-gradient(rgb(238, 216, 124), #ffe99a);
 }
-
 .mainBepart div ul .subtitleBepartleft {
   color: rgb(238, 216, 124);
   font-size: 2rem;
@@ -875,12 +709,10 @@ main .mainTextthree {
   padding-bottom: 1%;
   text-align: start;
 }
-
 .mainBepart div ul .buttonBepartleft {
   margin-top: 30px;
   text-align: start;
 }
-
 .mainBepart div ul .buttonBepartleft .buttonBepartlink {
   text-decoration: none;
   color: black;
@@ -892,12 +724,10 @@ main .mainTextthree {
   font-size: 1.5rem;
   transition: all 1.5s;
 }
-
 .mainBepart div ul .buttonBepartleft .buttonBepartlink:hover {
   font-size: 1.7rem;
   background: radial-gradient(rgb(238, 216, 124), #ffe99a);
 }
-
 .mainBepart .bepartImg {
   width: 200px;
   height: 200px;
@@ -911,45 +741,37 @@ main .mainTextthree {
   height: 1780px;
   grid-area: mainContact;
 }
-
 .mainContact .subtitleContact {
   text-align: center;
   font-size: 1.5rem;
   padding: 5px 0px;
 }
-
 .mainContact .textContact {
   text-align: center;
   font-size: 1.2rem;
   padding: 5px 0px;
 }
-
 .mainContact .listContact {
   margin-top: 125px;
   margin-left: 9%;
   font-size: 1.2rem;
 }
-
 .mainContact .listContact ul li {
   list-style: none;
   padding: 10px 0px;
 }
-
 .mainContact .listContact .buttonContact {
   text-align: end;
   display: inline-block;
 }
-
 .mainContact .listContact .ftextContact {
   text-align: justify;
   font-size: 1.2rem;
   width: 54%;
 }
-
 .mainContact .pfinalImgContact {
   margin-bottom: 0px !important;
 }
-
 .mainContact .pfinalImgContact .finalImgContact {
   width: 49%;
   height: 300px;
@@ -963,7 +785,6 @@ main .mainTextthree {
 footer {
   grid-area: footer;
 }
-
 footer .footerOne {
   display: flex;
   justify-content: space-evenly;
@@ -974,7 +795,6 @@ footer .footerOne {
   height: 235px;
   width: auto;
 }
-
 footer .footerOne div h2 {
   font-size: 1.2rem;
   font-weight: bold;
@@ -982,30 +802,25 @@ footer .footerOne div h2 {
   padding: 20px 0px;
   margin-bottom: 0;
 }
-
 footer .footerOne div p {
   font-size: 0.8rem;
   width: 200px;
   text-align: justify;
 }
-
 footer .noDisplayMobile p .twitterImg {
   position: relative;
   text-align: center;
   width: 100%;
   cursor: pointer;
 }
-
 footer .noDisplayMobile2 .footerLinks ul {
   width: 200px;
 }
-
 footer .noDisplayMobile2 .footerLinks li {
   font-size: 0.8rem;
   padding: 2px 0px;
   list-style: none;
 }
-
 footer .noDisplayMobile2 .footerLinks li::before {
   content: "";
   display: inline-block;
@@ -1016,18 +831,15 @@ footer .noDisplayMobile2 .footerLinks li::before {
   background-repeat: no-repeat;
   background-position: bottom center;
 }
-
 footer .noDisplayMobile2 .footerLinks a {
   color: white;
   text-decoration: none;
 }
-
 footer div .footerContact li {
   font-size: 0.8rem;
   padding: 2px 0px;
   list-style: none;
 }
-
 footer .footerTwo {
   display: flex;
   justify-content: flex-start;
@@ -1037,7 +849,6 @@ footer .footerTwo {
   width: auto;
   padding-top: 8px;
 }
-
 footer .footerTwo p {
   font-size: 1rem;
 }
@@ -1067,7 +878,6 @@ footer .footerTwo p {
   grid-template-areas: "header header header header header header header header header header header header" "main main main main main main main main main main main main" "mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact mainContact" "footer footer footer footer footer footer footer footer footer footer footer footer";
 }
 
-/* SECCION PARA RESPONSIVE */
 @media (min-width: 993px) and (max-width: 1200px) {
   header {
     justify-content: flex-start;
@@ -1090,8 +900,11 @@ footer .footerTwo p {
   #signUp {
     display: none;
   }
+  .mainFourmobile {
+    display: none;
+  }
   .mainBepart {
-    height: 1350px;
+    height: 1150px;
   }
   .mainBepart div ul .subtitleBepart {
     font-size: 1.5rem;
@@ -1313,25 +1126,25 @@ footer .footerTwo p {
     width: 150px;
     height: 150px;
   }
-  .mainThree .photoOne {
-    background-size: 100px 100px;
-    width: 100px;
-    height: 100px;
+  .mainThree .carousel .left {
+    margin-top: 300px;
+    margin-left: 500px;
   }
-  .mainThree .photoTwo {
-    background-size: 100px 100px;
-    width: 100px;
-    height: 100px;
+  .mainThree .carousel .right {
+    margin-top: 300px;
+    margin-right: 500px;
   }
-  .mainThree .photoThree {
-    background-size: 100px 100px;
-    width: 100px;
-    height: 100px;
+  .mainThree .carousel .carousel-inner .carousel-item .photo {
+    width: 32.3%;
+    height: 300px;
+    margin-top: 50px;
   }
-  .mainThree .photoFour {
-    background-size: 100px 100px;
-    width: 100px;
-    height: 100px;
+  .mainThree .carousel .carousel-inner .carousel-item .photo img {
+    width: 175px;
+    height: 220px;
+  }
+  .mainFourmobile {
+    display: none;
   }
   .mainFour {
     height: 700px;
@@ -1377,7 +1190,7 @@ footer .footerTwo p {
     height: 50px;
   }
   .mainFour .mainFourbutton {
-    margin-top: 200px;
+    margin-top: 220px;
   }
   .mainFour .mainFourbutton a {
     font-size: 0.8rem;
@@ -1544,7 +1357,7 @@ footer .footerTwo p {
   }
   .mainBepart {
     background-image: none;
-    height: 1100px;
+    height: 1000px;
   }
   .mainBepart .donatingBepart {
     justify-content: center;
@@ -1728,19 +1541,143 @@ footer .footerTwo p {
     width: 100px;
     height: 100px;
   }
-  .mainThree .photoOne {
-    background-size: 250px 200px;
-    width: 250px;
-    height: 200px;
+  .mainThree .carousel .left {
+    margin-top: 300px;
+    margin-left: 200px;
   }
-  .mainThree .photoTwo {
-    display: none;
+  .mainThree .carousel .right {
+    margin-top: 300px;
+    margin-right: 200px;
   }
-  .mainThree .photoThree {
-    display: none;
+  .mainThree .carousel .carousel-inner .carousel-item .photo {
+    width: 75%;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 10%;
+    object-fit: cover;
   }
-  .mainThree .photoFour {
-    display: none;
+  .mainThree .carousel .carousel-inner .carousel-item .photo img {
+    height: 240px;
+  }
+  .mainFourmobile {
+    display: contents;
+    background-image: url(../img/Presentation1.png);
+    background-repeat: no-repeat;
+    background-size: 100vw 500px;
+    height: 500px;
+    grid-area: mainFour;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: inline-block;
+    text-align: center;
+  }
+  .mainFourmobile .mainFourtx1 {
+    font-size: 1rem;
+    width: 75%;
+    text-align: center;
+    margin-left: 13%;
+  }
+  .mainFourmobile .mainFourtx2 {
+    font-size: 0.8rem;
+    width: 75%;
+    text-align: center;
+    margin-left: 13%;
+  }
+  .mainFourmobile .carousel .left {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(238, 216, 124);
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 300px;
+    margin-left: 700px;
+  }
+  .mainFourmobile .carousel .right {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(238, 216, 124);
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-top: 300px;
+    margin-right: 700px;
+  }
+  .mainFourmobile .carousel .carousel-inner .carousel-item .card {
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    margin-left: 13%;
+    margin-top: 20px;
+  }
+  .mainFourmobile .carousel .carousel-inner .carousel-item .card .card-body {
+    margin-top: 10px;
+    margin-bottom: 0;
+  }
+  .mainFourmobile .carousel .carousel-inner .carousel-item .card .card-body a {
+    text-decoration: none;
+    color: black;
+    background-color: rgb(238, 216, 124);
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 5px 25px;
+    cursor: pointer;
+    font-size: 0.8rem;
+    transition: all 1.5s;
+  }
+  .mainFourmobile .carousel .carousel-inner .carousel-item .card .card-body a:hover {
+    font-size: 1rem;
+    background: radial-gradient(rgb(238, 216, 124), #ffe99a);
+  }
+  .mainFourmobile .carousel .carousel-inner .carousel-item .card .card-body .card-title {
+    color: rgb(238, 216, 124);
+  }
+  .mainFourmobile .carousel .carousel-inner .carousel-item .card .one {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .mainFourmobile .carousel .carousel-inner .carousel-item .card .two {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .mainFourmobile .carousel .carousel-inner .carousel-item .card .three {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .mainFourmobile .carousel .carousel-inner .carousel-item .card .four {
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  .mainFourmobile .carousel .carousel-inner .carousel-item .card .search {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .mainFourmobile .carousel .carousel-inner .carousel-item .card .adoptform {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .mainFourmobile .carousel .carousel-inner .carousel-item .card .meet {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  .mainFourmobile .carousel .carousel-inner .carousel-item .card .dog {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    margin-top: 20px;
   }
   .mainFour {
     height: 550px;
@@ -1748,6 +1685,7 @@ footer .footerTwo p {
     flex-direction: column;
     align-items: center;
     background-size: 100vw 100vw;
+    display: none;
   }
   .mainFour .mainFourtx1 {
     font-size: 1rem;
@@ -1802,7 +1740,7 @@ footer .footerTwo p {
     height: 25px;
   }
   .mainFour .mainFourbutton {
-    margin-top: 140px;
+    margin-top: 160px;
     margin-bottom: 0;
   }
   .mainFour .mainFourbutton a {
@@ -1858,6 +1796,5 @@ footer .footerTwo p {
     background: radial-gradient(rgb(238, 216, 124), #ffe99a);
   }
 }
-
 
 /*# sourceMappingURL=style.css.map */

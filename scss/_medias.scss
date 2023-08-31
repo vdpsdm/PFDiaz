@@ -1,6 +1,3 @@
-
-/* SECCION PARA RESPONSIVE */
-
 @media (min-width: 993px) and (max-width:1200px){
     header {
         justify-content: flex-start;
@@ -32,8 +29,12 @@
         display: none;
     }
 
+    .mainFourmobile {
+        display: none;
+    }
+
     .mainBepart {
-        height: 1350px;
+        height: 1150px;
         div {
             ul {
                 .subtitleBepart {
@@ -296,30 +297,38 @@
     }
     
     .mainThree {
-        .photoOne {
-            background-size: 100px 100px;
-            width: 100px;
-            height: 100px;
-        }
-        .photoTwo {
-            background-size: 100px 100px;
-            width: 100px;
-            height: 100px;
-        }
-        .photoThree {
-            background-size: 100px 100px;
-            width: 100px;
-            height: 100px;
-        }
-        .photoFour {
-            background-size: 100px 100px;
-            width: 100px;
-            height: 100px;
+        .carousel {
+            .left{
+                margin-top: 300px;
+                margin-left: 500px;
+            }
+            .right{
+                margin-top: 300px;
+                margin-right: 500px;
+            }
+            .carousel-inner {
+                .carousel-item {
+                    .photo {
+                        width: 32.3%;
+                        height: 300px;
+                        margin-top: 50px;
+                        img {
+                            width: 175px;
+                            height: 220px;
+                        }
+                    }
+                }
+            }
         }
     }
-    
+
+    .mainFourmobile {
+        display: none;
+    }
+
     .mainFour {
         height: 700px;
+
         .mainFourAProcess {
             gap: 1%;
             div {
@@ -365,7 +374,7 @@
             }
         }
         .mainFourbutton {
-            margin-top: 200px;
+            margin-top: 220px;
             a {
                 font-size: 0.8rem;
                 transition: all 1.5s;
@@ -565,10 +574,9 @@
     #message {
         width: 80%;
     }
-
     .mainBepart {
         background-image: none;
-        height: 1100px;
+        height: 1000px;
         .donatingBepart {
             justify-content: center;
         }
@@ -772,29 +780,167 @@
         }
     }
     
-    .mainThree {
-        .photoOne {
-            background-size: 250px 200px;
-            width: 250px;
-            height: 200px;
+     .mainThree {
+        .carousel {
+            .left{
+                margin-top: 300px;
+                margin-left: 200px;
+            }
+            .right{
+                margin-top: 300px;
+                margin-right: 200px;
+            }
+            .carousel-inner {
+                .carousel-item {
+                    .photo {
+                        width: 75%;
+                        height: 300px;
+                        margin-top: 50px;
+                        margin-left: 10%;
+                        object-fit: cover;
+                        img {
+                            height: 240px;
+                        }
+                    }
+                }
+            }
         }
-        .photoTwo {
-            display: none;
+     }
+     .mainFourmobile {
+        display: contents;
+        background-image: url(../img/Presentation1.png);
+        background-repeat: no-repeat;
+        background-size: 100vw 500px;
+        height: 500px;
+        grid-area: mainFour;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: inline-block;
+        text-align: center;
+        .mainFourtx1 {
+            font-size: 1rem;
+            width: 75%;
+            text-align: center;
+            margin-left: 13%;
         }
-        .photoThree {
-            display: none;
+        .mainFourtx2 {
+            font-size: 0.8rem;
+            width: 75%;
+            text-align: center;
+            margin-left: 13%;
         }
-        .photoFour {
-            display: none;
+        .carousel {
+            .left{
+                width: 35px;
+                height: 35px;
+                background-color: $background-color_1;
+                border: 1px solid black;
+                border-radius: 50%;
+                margin-top: 300px;
+                margin-left: 700px;
+            }
+            .right{
+                width: 35px;
+                height: 35px;
+                background-color: $background-color_1;
+                border: 1px solid black;
+                border-radius: 50%;
+                margin-top: 300px;
+                margin-right: 700px;
+            }
+            .carousel-inner {
+                .carousel-item{
+                    .card {
+                        height: 400px;
+                        justify-content: center;
+                        align-items: center;
+                        margin-bottom: 0px;
+                        margin-left: 13%;
+                        margin-top: 20px;
+                        .card-body{
+                            margin-top: 10px;
+                            margin-bottom: 0;
+                            a {
+                                text-decoration: none;
+                                color: $color_3;
+                                background-color: $background-color_1;
+                                border-radius: 5px;
+                                border: 1px solid black;
+                                padding: 5px 25px;
+                                cursor: pointer;
+                                font-size: 0.8rem;
+                                transition: all 1.5s;
+                                &:hover{
+                                    font-size: 1rem;
+                                    background: radial-gradient($background-color_1, #ffe99a);
+                                }
+                            }
+                            .card-title {
+                                color: $color_4;
+                            }
+                        }
+                        .one {
+                            width: 30px;
+                            height: 30px;
+                            text-align: center;
+                            margin-top: 10px;
+                        }
+                        .two {
+                            width: 30px;
+                            height: 30px;
+                            text-align: center;
+                            margin-top: 10px;
+                        }
+                        .three {
+                            width: 30px;
+                            height: 30px;
+                            text-align: center;
+                            margin-top: 10px;
+                        }
+                        .four {
+                            width: 30px;
+                            height: 30px;
+                            text-align: center;
+                            margin-top: 10px;
+                        }
+                        .search {
+                            width: 70px;
+                            height: 70px;
+                            text-align: center;
+                            margin-top: 20px;
+                        }
+                        .adoptform {
+                            width: 70px;
+                            height: 70px;
+                            text-align: center;
+                            margin-top: 20px;
+                        }
+                        .meet {
+                            width: 70px;
+                            height: 70px;
+                            text-align: center;
+                            margin-top: 20px;
+                        }
+                        .dog {
+                            width: 70px;
+                            height: 70px;
+                            text-align: center;
+                            margin-top: 20px;
+                        }
+                    }
+
+                }
+            }
         }
     }
-    
+
     .mainFour {
         height: 550px;
         display: flex;
         flex-direction: column;
         align-items: center;
         background-size: 100vw 100vw;
+        display: none;
         .mainFourtx1 {
             font-size: 1rem;
             width: 120px;
@@ -850,7 +996,7 @@
             }
         }
         .mainFourbutton {
-            margin-top: 140px;
+            margin-top: 160px;
             margin-bottom: 0;
             a {
                 font-size: 0.6rem;
@@ -862,7 +1008,6 @@
             }
         }
     }
-
     
 .mainFive {
     height: 550px;

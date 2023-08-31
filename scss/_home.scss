@@ -1,119 +1,65 @@
 .mainThree {
 	background-image: url(../img/vecteezy_artificial-grass-texture-banner_3086563.jpg);
 	background-repeat: no-repeat;
-	background-size: 100% 350px;
-	height: 250px;
-	display: flex;
-	justify-content: space-evenly;
-	align-items: center;
-	flex-flow: row wrap;
+	background-size: 100vw 450px;
+	height: 400px;
 	border-bottom: 1px solid black;
 	border-right: 1px solid black;
 	border-left: 1px solid black;
 	grid-area: mainThree;
-	p {
-		.leftMain {
-			width: 25px;
-			height: 25px;
+	.mainTextthree2{
+		text-align: center;
+		font-size: 1.2rem;
+		color: $color_5 ;
+	}
+	.carousel {
+		height: 350px;
+		.left{
+			width: 35px;
+			height: 35px;
 			background-color: $background-color_1;
 			border: 1px solid black;
-			cursor: pointer;
 			border-radius: 50%;
+			margin-top: 300px;
+			margin-left: 700px;
 		}
-		.rightMain {
-			width: 25px;
-			height: 25px;
+		.right{
+			width: 35px;
+			height: 35px;
 			background-color: $background-color_1;
 			border: 1px solid black;
-			cursor: pointer;
 			border-radius: 50%;
+			margin-top: 300px;
+			margin-right: 700px;
 		}
-	}
-	.photoOne {
-		width: 200px;
-		height: 150px;
-		border: 1px solid black;
-		border-radius: 25%;
-		display: flex;
-		background-image: url(../img/erda-estremera-JBrbzg5N7Go-unsplash.jpg);
-		background-size: 200px 150px;
-		background-repeat: no-repeat;
-		justify-content: center;
-		align-items: flex-end;
-		a {
-			color: $color_3;
-			font-size: 0.5rem;
-			text-decoration: none;
-			border: 1px solid black;
-			background-color: $background-color_1;
-			border-radius: 25%;
-			padding: 0px 5px;
-		}
-	}
-	.photoTwo {
-		width: 200px;
-		height: 150px;
-		border: 1px solid black;
-		border-radius: 25%;
-		display: flex;
-		background-image: url(../img/milli-2l0CWTpcChI-unsplash.jpg);
-		background-size: 200px 150px;
-		background-repeat: no-repeat;
-		justify-content: center;
-		align-items: flex-end;
-		a {
-			color: $color_3;
-			font-size: 0.5rem;
-			text-decoration: none;
-			border: 1px solid black;
-			background-color: $background-color_1;
-			border-radius: 25%;
-			padding: 0px 5px;
-		}
-	}
-	.photoThree {
-		width: 200px;
-		height: 150px;
-		border: 1px solid black;
-		border-radius: 25%;
-		display: flex;
-		background-image: url(../img/baptist-standaert-mx0DEnfYxic-unsplash.jpg);
-		background-size: 200px 150px;
-		background-repeat: no-repeat;
-		justify-content: center;
-		align-items: flex-end;
-		a {
-			color: $color_3;
-			font-size: 0.5rem;
-			text-decoration: none;
-			border: 1px solid black;
-			background-color: $background-color_1;
-			border-radius: 25%;
-			padding: 0px 5px;
-		}
-	}
-	.photoFour {
-		width: 200px;
-		height: 150px;
-		border: 1px solid black;
-		border-radius: 25%;
-		display: flex;
-		background-image: url(../img/camylla-battani-AoqgGAqrLpU-unsplash.jpg);
-		background-size: 200px 150px;
-		background-repeat: no-repeat;
-		justify-content: center;
-		align-items: flex-end;
-		a {
-			color: $color_3;
-			font-size: 0.5rem;
-			text-decoration: none;
-			border: 1px solid black;
-			background-color: $background-color_1;
-			border-radius: 25%;
-			padding: 0px 5px;
+		.carousel-inner {
+			.carousel-item {
+				.photo {
+					width: 24.3%;
+					height: 300px;
+					cursor: pointer;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					margin-top: 50px;
+					img {
+						width: 175px;
+						height: 220px;
+						border-radius: 25%;
+						border: 1px solid black;
+						object-fit: cover;
+					}
+				}
+			}
 		}
 	}
 }
+
+.mainFourmobile {
+	display: none;
+}
+
 .mainFour {
 	background-image: url(../img/Presentation1.png);
 	background-repeat: no-repeat;
@@ -182,16 +128,17 @@
 						height: 50px;
 						text-align: center;
 					}
-					.listYellow {
-						color: $color_4;
-						font-size: 1.2rem;
-					}
+				}
+				.listYellow {
+					color: $color_4;
+					font-size: 1.2rem;
 				}
 			}
 		}
 	}
 	.mainFourbutton {
 		margin: 100px;
+		margin-top: 150px;
 		a {
 			text-decoration: none;
 			color: $color_3;
